@@ -1,0 +1,172 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/services
+
+- Media:
+    - Plex:
+        icon: plex.png
+        href: http://localhost:32400
+        description: organize, stream, and share your personal media and discover new content from various sources
+        # siteMonitor: http://plex:32400
+        server: my-docker
+        container: plex
+        # widget:
+        #     type: plex
+        #     url: 
+        #     key: 
+    
+    - Radarr:
+        icon: radarr.png
+        href: http://localhost:7878
+        description: download movies from various sources and formats
+        # siteMonitor: http://radarr:7878
+        server: my-docker
+        container: radarr
+        # widget:
+        #     type: radarr
+        #     url: 
+        #     key: 
+        #     enableQueue: true
+
+    - Transmission:
+        icon: transmission.png
+        href: http://localhost:9091
+        description:  cross-platform BitTorrent client that integrates with your operating system and behaves like a Mac program
+        #siteMonitor: http://192.168.1.3:9091
+        server: my-docker
+        container: transmission
+        # widget:
+        #     type: transmission
+        #     url: 
+        #     username: 
+        #     password: 
+        #     rpcUrl: /transmission/ # Optional. Matches the value of "rpc-url" in your Transmission's settings.json file
+
+- Services:
+    - Nextcloud:
+        icon: nextcloud.png
+        href: http://localhost:8080
+        description:  self-hosted cloud storage and collaboration software that offers file access, talk, groupware and office integration
+        #siteMonitor: http://nextcloud:80
+        server: my-docker
+        container: nextcloud
+        # widget:
+        #     type: nextcloud
+        #     url: 
+        #     username: 
+        #     password: 
+
+    - Home Assistant:
+        icon: home-assistant.png
+        href: http://localhost:8123
+        description: versatile and trustworthy smart home hub that integrates with over 1000 brands and runs on various devices
+        #siteMonitor: http://homeassistant:8123
+        server: my-docker
+        container: homeassistant
+        # widget:
+        #     type: homeassistant
+        #     url: http://homeassistant:8123
+        #     key: 
+        #     custom:
+        #         - state: sensor.total_power
+        #         - state: sensor.total_energy_today
+        #           label: energy today
+        #         - template: "{{ states.switch|selectattr('state','equalto','on')|list|length }}"
+        #           label: switches on
+        #         - state: weather.forecast_home
+        #           label: wind speed
+        #           value: "{attributes.wind_speed} {attributes.wind_speed_unit}"
+        
+    - Gramps-Web:
+        icon: mdi-family-tree
+        href: http://localhost:81
+        description: web app for collaborative genealogy
+        #siteMonitor: http://grampsweb:5000
+        server: my-docker
+        container: grampsweb
+
+
+
+- Tools:
+    - JDownloader:
+        icon: jdownloader.png
+        href: http://localhost:5800/
+        description:  free, open-source download management tool with a huge community that makes downloading as easy and fast as it should be
+        #siteMonitor: http://jdownloader:5800/
+        server: my-docker
+        container: jdownloader
+        # widget:
+        #     type: jdownloader
+        #     username: ""
+        #     password: ""
+        #     client: 
+    
+    - Adminer:
+        icon: adminer.png
+        href: http://localhost:8081
+        description: database management in a single PHP file
+        #siteMonitor: http://adminer:8081
+        server: my-docker
+        container: adminer
+
+    - InfluxDB:
+        icon: influxdb.png
+        href: http://localhost:8086
+        description: time-series database designed to handle high write and query loads
+        #siteMonitor: http://influxdb:8086
+        server: my-docker
+        container: influxdb
+
+    - Uptime Kuma:
+        icon: uptime-kuma.png
+        href: http://localhost:3001
+        description:  easy-to-use self-hosted monitoring tool
+        # siteMonitor: http://uptime-kuma:3001
+        server: my-docker
+        container: uptime-kuma
+        # widget:
+        #     type: uptimekuma
+        #     url: 
+        #     slug: 
+
+- Server Management:
+    - VS Code:
+        icon: code.png
+        href: http://localhost:8443
+        description:  VS Code on any machine and access it in the browser
+        #siteMonitor: http://code-server:8443
+        server: my-docker
+        container: code-server
+    
+    - Portainer:
+        icon: portainer.png
+        href: http://localhost:9000
+        description:  versatile container management software that simplifies your secure adoption of containers
+        #siteMonitor: http://portainer:9000
+        server: my-docker
+        container: portainer
+        # widget:
+        #     type: portainer
+        #     url: 
+        #     env: 
+        #     key: 
+
+    - CloudCMD:
+        icon: cloudcmd.png
+        href: http://localhost:8000
+        description: file manager for the web. It includes a command-line console and a text editor
+        #siteMonitor: http://cloudcmd:8000
+        server: my-docker
+        container: cloudcmd
+    
+
+    - Traefik:
+        icon: traefik.png
+        href: http://localhost:8082
+        description: open-source Edge Router that automatically discovers and routes requests to your services
+        # siteMonitor: http://traefik:8082
+        server: my-docker
+        container: traefik
+        # widget:
+        #     type: traefik
+        #     url: 

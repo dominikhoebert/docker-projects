@@ -1,0 +1,13 @@
+# https://jdownloader.org/jdownloader2
+
+version: '3'
+name: jdownloader2
+services:
+  jdownloader-2:
+    container_name: jdownloader
+    image: jlesage/jdownloader-2
+    ports:
+      - "5800:5800"
+    volumes:
+      - "./config:/config:rw"
+      - "./downloads:/output:rw"

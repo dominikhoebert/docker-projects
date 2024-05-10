@@ -1,0 +1,16 @@
+# https://gethomepage.dev
+
+version: '3.3'
+
+name: homepage
+
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - 3045:3000
+    volumes:
+      - ./homepage-config:/app/config # Make sure your local config directory exists
+      - ./images:/app/public/images
+      - /var/run/docker.sock:/var/run/docker.sock:ro # (optional) For docker integrations

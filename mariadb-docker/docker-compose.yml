@@ -1,0 +1,27 @@
+# https://www.adminer.org/
+
+# Use root/example as user/password credentials
+
+version: '3.1'
+
+services:
+
+  db:
+    image: mariadb
+    container_name: db
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MARIADB_ROOT_PASSWORD: example
+      MARIADB_USER: example-user
+      MARIADB_PASSWORD: my_cool_secret
+    volumes:
+      - ./mysql:/var/lib/mysql
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - 8081:8080

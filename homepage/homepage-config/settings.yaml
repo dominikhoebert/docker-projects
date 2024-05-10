@@ -1,0 +1,16 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/settings
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
+
+background:
+  image: images/neon-sun.jpg
+  blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  saturate: 300 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 1 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 80 # 0-100
+
+showStats: true

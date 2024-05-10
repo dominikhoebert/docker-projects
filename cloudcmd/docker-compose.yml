@@ -1,0 +1,15 @@
+# https://cloudcmd.io/
+
+version: '2'
+
+name: cloudcmd-stack
+
+services:
+  cloudcmd:
+    container_name: cloudcmd
+    ports:
+      - 8000:8000
+    volumes:
+      - ~:/root
+      - /:/mnt/fs
+    image: coderaiser/cloudcmd

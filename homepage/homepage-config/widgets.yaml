@@ -1,0 +1,22 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/latest/configs/service-widgets
+
+- resources:
+    cpu: true
+    memory: true
+    disk: /
+
+- search:
+    provider: duckduckgo
+    target: _blank
+
+
+- datetime:
+    # 4 januari 2023 om 13:51:25 PST
+    locale: de
+    text_size: 4xl
+    format:
+        dateStyle: long
+        timeStyle: short
+        hourCycle: h23

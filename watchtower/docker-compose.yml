@@ -1,0 +1,14 @@
+# https://containrrr.dev/watchtower/
+
+# Watchtower is a container that watches for changes in other containers and automatically updates them.
+# This is useful for keeping your containers up-to-date with the latest versions of their images.
+
+name: watchtower
+
+services:
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --schedule "0 4 * * *"

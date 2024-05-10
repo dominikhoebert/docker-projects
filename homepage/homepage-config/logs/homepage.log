@@ -1,0 +1,353 @@
+[2024-05-10T12:47:33.196Z] info: docker.yaml was copied to the config folder
+[2024-05-10T12:47:33.206Z] info: services.yaml was copied to the config folder
+[2024-05-10T12:47:33.210Z] info: bookmarks.yaml was copied to the config folder
+[2024-05-10T12:47:33.230Z] info: widgets.yaml was copied to the config folder
+[2024-05-10T12:47:33.241Z] info: custom.css was copied to the config folder
+[2024-05-10T12:47:33.245Z] info: custom.js was copied to the config folder
+[2024-05-10T12:47:33.321Z] info: kubernetes.yaml was copied to the config folder
+[2024-05-10T13:00:16.196Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:00:16.199Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:00:16.676Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:00:16.676Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:00:19.481Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:00:19.481Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:00:19.975Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:00:19.975Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:00:40.337Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:00:40.338Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:00:43.629Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:00:43.630Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:01:04.671Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:01:04.672Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:01:05.150Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:01:05.151Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:01:07.977Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:01:07.978Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:01:08.457Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:01:08.458Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:01:35.056Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:01:35.057Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:01:38.362Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:01:38.363Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:02:17.247Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:02:17.247Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:02:20.561Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:02:20.562Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:02:32.725Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:02:32.725Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:02:36.024Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:02:36.024Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:03:55.911Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:03:55.911Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:03:59.205Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:03:59.206Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:04:07.581Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:04:07.581Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:04:10.873Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:04:10.873Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:04:25.372Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:04:25.372Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T13:04:28.669Z] error: <httpProxy> Error calling http://cloudcmd:8000/...
+[2024-05-10T13:04:28.669Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND cloudcmd
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'cloudcmd'
+  }
+]
+[2024-05-10T14:22:10.680Z] error: Failed to load services.yaml, please check for errors
+[2024-05-10T14:22:10.680Z] error: YAMLException: bad indentation of a sequence entry (6:16)
+
+ 3 | # https://gethomepage.dev/latest/configs/services
+ 4 | 
+ 5 | - Services
+ 6 |     - Nextcloud:
+--------------------^
+ 7 |         icon: nextcloud.png
+ 8 |         href: http://localhost:8080
+[2024-05-10T14:22:10.856Z] error: Failed to load services.yaml, please check for errors
+[2024-05-10T14:22:10.856Z] error: YAMLException: bad indentation of a sequence entry (6:16)
+
+ 3 | # https://gethomepage.dev/latest/configs/services
+ 4 | 
+ 5 | - Services
+ 6 |     - Nextcloud:
+--------------------^
+ 7 |         icon: nextcloud.png
+ 8 |         href: http://localhost:8080
+[2024-05-10T14:22:11.387Z] error: Failed to load services.yaml, please check for errors
+[2024-05-10T14:22:11.388Z] error: YAMLException: bad indentation of a sequence entry (6:16)
+
+ 3 | # https://gethomepage.dev/latest/configs/services
+ 4 | 
+ 5 | - Services
+ 6 |     - Nextcloud:
+--------------------^
+ 7 |         icon: nextcloud.png
+ 8 |         href: http://localhost:8080
+[2024-05-10T14:22:24.166Z] error: <httpProxy> Error calling http://nextcloud/...
+[2024-05-10T14:22:24.166Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nextcloud
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nextcloud'
+  }
+]
+[2024-05-10T14:22:27.476Z] error: <httpProxy> Error calling http://nextcloud/...
+[2024-05-10T14:22:27.476Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nextcloud
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nextcloud'
+  }
+]
+[2024-05-10T14:26:43.572Z] error: <httpProxy> Error calling http://nextcloud/...
+[2024-05-10T14:26:43.572Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nextcloud
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nextcloud'
+  }
+]
+[2024-05-10T14:26:46.890Z] error: <httpProxy> Error calling http://nextcloud/...
+[2024-05-10T14:26:46.890Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND nextcloud
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'nextcloud'
+  }
+]
+[2024-05-10T15:16:57.507Z] error: Failed to load services.yaml, please check for errors
+[2024-05-10T15:16:57.507Z] error: YAMLException: bad indentation of a sequence entry (143:13)
+
+ 140 |         container: cloudcmd
+ 141 |     
+ 142 |     - InfluxDB
+ 143 |         icon: influxdb.png
+-------------------^
+ 144 |         href: http://localhost:8086
+ 145 |         description: time-series database d ...
+[2024-05-10T15:16:57.589Z] error: Failed to load services.yaml, please check for errors
+[2024-05-10T15:16:57.590Z] error: YAMLException: bad indentation of a sequence entry (143:13)
+
+ 140 |         container: cloudcmd
+ 141 |     
+ 142 |     - InfluxDB
+ 143 |         icon: influxdb.png
+-------------------^
+ 144 |         href: http://localhost:8086
+ 145 |         description: time-series database d ...
+[2024-05-10T15:16:58.030Z] error: Failed to load services.yaml, please check for errors
+[2024-05-10T15:16:58.031Z] error: YAMLException: bad indentation of a sequence entry (143:13)
+
+ 140 |         container: cloudcmd
+ 141 |     
+ 142 |     - InfluxDB
+ 143 |         icon: influxdb.png
+-------------------^
+ 144 |         href: http://localhost:8086
+ 145 |         description: time-series database d ...

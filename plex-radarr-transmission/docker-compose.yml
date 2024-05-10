@@ -1,0 +1,60 @@
+name: plex-radarr-transmission
+
+# https://github.com/linuxserver/docker-transmission
+services:
+  transmission:
+    image: lscr.io/linuxserver/transmission:latest
+    container_name: transmission
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      # - TRANSMISSION_WEB_HOME= #optional
+      # - USER= #optional
+      # - PASS= #optional
+      # - WHITELIST= #optional
+      # - PEERPORT= #optional
+      # - HOST_WHITELIST= #optional
+    volumes:
+      - ./transmission:/config
+      - ./downloads:/downloads
+      - ./watch:/watch
+    ports:
+      - 9091:9091
+      - 51413:51413
+      - 51413:51413/udp
+    restart: unless-stopped
+
+  # https://github.com/linuxserver/docker-radarr
+  radarr:
+    image: lscr.io/linuxserver/radarr:latest
+    container_name: radarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+    volumes:
+      - ./radarr:/config
+      - ./movies:/movies #optional
+      - ./downloads:/downloads #optional
+    ports:
+      - 7878:7878
+    restart: unless-stopped
+
+  # https://github.com/linuxserver/docker-plex
+  plex:
+    image: lscr.io/linuxserver/plex:latest
+    container_name: plex
+    ports:
+      - 32400:32400
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - VERSION=docker
+      - PLEX_CLAIM= #FILL ME IN!!! (claim token) https://www.plex.tv/claim/
+    volumes:
+      - ./plex:/config
+      - ./tv:/tv
+      - ./movies:/movies
+    restart: unless-stopped

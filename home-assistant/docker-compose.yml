@@ -1,0 +1,13 @@
+version: '3.5'
+name: homeassistant
+services:
+  homeassistant:
+    container_name: homeassistant
+    restart: unless-stopped
+    image: ghcr.io/home-assistant/home-assistant:stable
+    ports:
+      - "8123:8123"
+    environment:
+      - TZ=Europe/Vienna
+    volumes:
+      - ./homeassistant_config:/config
