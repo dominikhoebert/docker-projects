@@ -24,3 +24,23 @@
 | [Watchtower](https://containrrr.dev/watchtower/) |  |
 
 ![homepage](homepage.jpg)
+
+## ToDo
+
+- Graphana Loki
+- Authentik
+- alpine
+- nginx
+- obsidian livesync
+- whoami
+- adguard home
+- dozzle
+- dockge
+- glances
+- kavita
+- mealie
+- metube
+- pinchflat
+- netalertx
+- netdata
+- stirlingpdf
