@@ -16,4 +16,5 @@ portainer/portainer_data/
 plex-radarr-transmission/plex/
 plex-radarr-transmission/radarr/
 plex-radarr-transmission/transmission/
+guacamole/config/
 

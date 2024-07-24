@@ -1,0 +1,17 @@
+# https://github.com/jwetzell/docker-guacamole
+
+# client-less remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH over HTML5.
+
+name: guacamole
+
+services:
+  guacamole:
+    image: jwetzell/guacamole:1.5.5
+    container_name: guacamole
+    volumes:
+      - ./config:/config
+    ports:
+      - 80:8080
+volumes:
+  postgres:
+    driver: local

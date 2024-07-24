@@ -1,0 +1,49 @@
+# https://github.com/fisharebest/webtrees
+
+# webtrees is the web's leading online collaborative genealogy application
+
+name: webtrees
+
+services:
+  webtrees:
+    image: ghcr.io/nathanvaughn/webtrees:latest
+    ports:
+      - 82:80
+      #- 443:443
+    environment:
+      PRETTY_URLS: "0"
+      HTTPS: "0"
+      HTTPS_REDIRECT: "0"
+      LANG: "en-US"
+      BASE_URL: "http://localhost:82"
+      DB_TYPE: "sqlite"
+      DB_NAME: "webtrees"
+      DB_PREFIX: "wt_"
+      WT_USER: "username"
+      WT_NAME: "Full Name"
+      WT_PASS: "badwtpassword"
+      WT_EMAIL: "me@example.com"
+      PUID: "1000"
+      PGID: "1000"
+    restart: unless-stopped
+    volumes:
+      # - ~/certs:/certs/
+      - app_data:/var/www/webtrees/data/
+
+  # db:
+  #   environment:
+  #     MARIADB_DATABASE: "webtrees"
+  #     MARIADB_USER: "webtrees"
+  #     MARIADB_ROOT_PASSWORD: "badrootpassword"
+  #     MARIADB_PASSWORD: "baddbpassword"
+  #   # See: https://github.com/NathanVaughn/webtrees-docker/issues/145
+  #   image: docker.io/library/mariadb:10
+  #   restart: unless-stopped
+  #   volumes:
+  #     - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
+    driver: local
+  app_data:
+    driver: local
