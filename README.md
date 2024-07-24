@@ -39,6 +39,8 @@
   - readme
 
 - Graphana Loki
+  - readme
+  - homepage
 - Authentik
 - alpine
 - nginx
