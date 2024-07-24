@@ -1,6 +1,8 @@
-## Usage
+# Guacamole
 
-TODO
+Clientlose Screensharing app. Schüler brauchen nur die IP Adresse der Lehrperson in ihrem Browser eingeben um sich den Screen ansehen zu können.
+
+Basiert auf [jwetzell/docker-guacamole](https://github.com/jwetzell/docker-guacamole)
 
 ## Installation
 
