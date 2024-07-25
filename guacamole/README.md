@@ -4,11 +4,22 @@ Clientlose Screensharing app. Schüler brauchen nur die IP Adresse der Lehrperso
 
 Basiert auf [jwetzell/docker-guacamole](https://github.com/jwetzell/docker-guacamole)
 
+## Verwendung
+
+VNC Server starten, Docker und Guacamole starten
+eigene IP Adresse mit Schülern teilen
+
 ## Installation
 
 ### 1. VNC/RDP
 #### Windows
-TODO
+VNC Server wird benötigt, zB.:
+[UltraVNC](https://uvnc.com/downloads/ultravnc.html) neuste Stabile Version herunterladen und installieren
+
+##### UltraVNC konfigurieren  
+Rechtsklick auf das UltraVNC Tray Icon -> Admin Properties  
+VNV Passsword setzen -> OK
+
 #### macOS  
 `System Settings` -> `General` -> `Sharing` -> `Screen Sharing` activieren (Kann verwendet werden um Screen sharing kurzfristig zu deaktivieren)  
 Weiters sollten die entsprechenden Screen Sharing Settings gesetzt werden auf `i`
@@ -41,10 +52,12 @@ Protocol: VNC
 Maximum number of connections: 60  
 Maximum number of connections per user: 60  
 Hostname: `host.docker.internal`  
-Port: `TODO` (Windows); `5900` (macOS)  
-Authentication: Benutzername und Passwort des Geräts eingeben    
-Display:  
-Read-Only aktivieren  
+Port: `5900`  
+Authentication:  
+Benutzername und Passwort eingeben:  
+UltraVNC: Username leer, Passwort wie gewählt  
+macOS: User und Passwort des Geräts  
+Display: Read-Only aktivieren  
 Cursor: Remote  
 Color Depth: 32-Bit  
 Encoding: UTF-8  
