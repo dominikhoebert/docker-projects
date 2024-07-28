@@ -47,5 +47,22 @@ services:
       - PMA_ARBITRARY=1
       - PMA_HOST=mariadb
 
+# https://dbgate.org/
+  dbgate:
+    image: dbgate/dbgate
+    container_name: dbgate
+    ports:
+      - 8084:3000
+    volumes:
+      - ./dbgate-data:/root/.dbgate
+    environment:
+      CONNECTIONS: con1
+      LABEL_con1: MariaDB
+      SERVER_con1: mariadb
+      USER_con1: root
+      PASSWORD_con1: example
+      PORT_con1: 3306
+      ENGINE_con1: mysql@dbgate-plugin-mysql
+
 # https://github.com/sqlchat/sqlchat
-# 
+# https://github.com/dominikhoebert/docker-projects/blob/master/sqlchat/compose.yml

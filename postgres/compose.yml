@@ -1,0 +1,14 @@
+name: postgres15
+
+services:
+  psql15:
+    container_name: postgres15
+    image: postgres:15
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: example
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./dev/docker_psql_init:/docker-entrypoint-initdb.d
+    ports:
+      - 5432:5432

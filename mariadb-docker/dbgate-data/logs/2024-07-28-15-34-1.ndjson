@@ -1,0 +1,8 @@
+{"pid":1,"caller":"connections","name":"main","connections":[{"_id":"***","engine":"mysql@dbgate-plugin-mysql","server":"***","user":"***","password":"***","port":"3306","useDatabaseUrl":false,"defaultDatabase":null,"singleDatabase":false,"displayName":"***","databases":null}],"level":30,"msg":"Using connections from ENV variables","time":1722180858521}
+{"pid":1,"caller":"useController","name":"main","level":30,"msg":"Calling init controller for controller /connections","time":1722180859013}
+{"pid":1,"caller":"useController","name":"main","level":30,"msg":"Calling init controller for controller /database-connections","time":1722180859017}
+{"pid":1,"caller":"useController","name":"main","level":30,"msg":"Calling init controller for controller /scheduler","time":1722180859022}
+{"pid":1,"caller":"directories","name":"main","level":30,"msg":"Creating directory /root/.dbgate/files","time":1722180859024}
+{"pid":1,"caller":"directories","name":"main","level":30,"msg":"Creating directory /root/.dbgate/run","time":1722180859028}
+{"pid":1,"caller":"main","name":"main","level":30,"msg":"DbGate API listening on port 3000 (docker build)","time":1722180859030}
+{"pid":1,"caller":"main","name":"main","level":30,"msg":"\nShutting down DbGate API server","time":1722180922242}

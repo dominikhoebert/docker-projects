@@ -46,12 +46,6 @@
 - netdata
   - demo: https://app.netdata.cloud/spaces/netdata-demo/rooms/all-nodes
 - stirlingpdf
-- mariadb-docker:
-  - phpmyadmin https://hub.docker.com/_/phpmyadmin
-  - https://github.com/sqlchat/sqlchat
-  - https://github.com/beekeeper-studio/beekeeper-studio
-  - https://dbgate.org/
-  - https://github.com/clidey/whodb
 
 ### add to readme and homepage
 
@@ -61,6 +55,9 @@
 - whodb
 - phpmyadmin
 - sqlchat
+- postgres15
+- dbgate
+- databases
 
 
 ## Tools

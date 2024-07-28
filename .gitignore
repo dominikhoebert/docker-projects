@@ -4,7 +4,7 @@ hortusfox-web/
 linkwarden/
 volumes/
 birdnet/
-mariadb-docker/mysql/
+mariadb/mysql/
 system-monitoring/influxdb/
 uptimekuma/uptime-kuma-data/
 home-assistant/homeassistant_config/
@@ -18,4 +18,7 @@ plex-radarr-transmission/radarr/
 plex-radarr-transmission/transmission/
 guacamole/config/
 myspeed/data/
-
+postgres/data/
+postgres/dev/
+databases/dev/
+mariadb/dbgate-data/
