@@ -46,3 +46,6 @@ services:
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOST=mariadb
+
+# https://github.com/sqlchat/sqlchat
+# 

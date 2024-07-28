@@ -1,0 +1,14 @@
+# https://github.com/sqlchat/sqlchat
+
+# chat-based SQL client, which uses natural language to communicate with the database to implement operations such as query, modification, addition, and deletion of the database
+
+name: sqlchat
+services:
+    sqlchat:
+        container_name: sqlchat
+        platform: linux/amd64
+        environment:
+            - OPENAI_API_KEY=???
+        ports:
+          - 3005:3000
+        image: sqlchat/sqlchat

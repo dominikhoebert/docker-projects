@@ -60,6 +60,7 @@
 - Graphana Loki
 - whodb
 - phpmyadmin
+- sqlchat
 
 
 ## Tools
