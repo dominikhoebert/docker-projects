@@ -47,6 +47,16 @@
   - demo: https://app.netdata.cloud/spaces/netdata-demo/rooms/all-nodes
 - stirlingpdf
 - redis
+- tinyfilemanager
+- vaultwarden
+
+### Übung
+
+- Adguard
+  - localhost DNS Server möglich?
+- Nginx Proxy Manager
+- beliebige App
+- gemeinsames poxy Docker Netzwerk
 
 ### add to readme and homepage
 
@@ -60,7 +70,7 @@
 - dbgate
 - databases
 - dawarich
-
+- olivetin
 
 ## Tools
 
