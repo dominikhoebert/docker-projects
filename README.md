@@ -29,18 +29,6 @@
 
 - https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose
 
-- guacamole
-  - readme
-  - homepage
-  - 
-
-- webtrees
-  - homepage
-  - readme
-
-- Graphana Loki
-  - readme
-  - homepage
 - Authentik
 - alpine
 - nginx
@@ -63,3 +51,15 @@
   - https://github.com/sqlchat/sqlchat
   - https://github.com/beekeeper-studio/beekeeper-studio
   - https://dbgate.org/
+  - https://github.com/clidey/whodb
+
+### add to readme and homepage
+
+- guacamole
+- webtrees
+- Graphana Loki
+
+
+## Tools
+
+- [Composerize](https://www.composerize.com/)

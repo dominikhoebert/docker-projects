@@ -1,0 +1,14 @@
+# https://github.com/gnmyt/myspeed
+
+# speed test analysis software that records your internet speed for up to 30 days
+
+name: myspeed
+services:
+    myspeed:
+        ports:
+            - 5216:5216
+        volumes:
+            - ./data:/myspeed/data
+        restart: unless-stopped
+        container_name: myspeed
+        image: germannewsmaker/myspeed
