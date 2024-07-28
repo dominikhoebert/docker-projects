@@ -1,14 +1,12 @@
-# https://www.adminer.org/
-
 # Use root/example as user/password credentials
 
-version: '3.1'
+name: mariadb
 
 services:
 
-  db:
+  mariadb:
     image: mariadb
-    container_name: db
+    container_name: mariadb
     restart: always
     ports:
       - 3306:3306
@@ -19,9 +17,32 @@ services:
     volumes:
       - ./mysql:/var/lib/mysql
 
+# optionale web DB clients/IDEs
+
+# https://www.adminer.org/
+# Server: mariadb
   adminer:
     image: adminer
     container_name: adminer
-    restart: always
     ports:
       - 8081:8080
+
+# https://github.com/clidey/whodb
+# Host Name: mariadb
+  whodb:
+    image: clidey/whodb
+    container_name: whodb
+    # volumes: # (optional for sqlite) 
+    #   - ./sample.db:/db/sample.db
+    ports:
+      - "8082:8080"
+
+# https://hub.docker.com/_/phpmyadmin
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: phpmyadmin
+    ports:
+      - 8083:80
+    environment:
+      - PMA_ARBITRARY=1
+      - PMA_HOST=mariadb

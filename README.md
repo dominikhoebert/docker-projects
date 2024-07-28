@@ -47,7 +47,7 @@
   - demo: https://app.netdata.cloud/spaces/netdata-demo/rooms/all-nodes
 - stirlingpdf
 - mariadb-docker:
-  - phpmyadmin
+  - phpmyadmin https://hub.docker.com/_/phpmyadmin
   - https://github.com/sqlchat/sqlchat
   - https://github.com/beekeeper-studio/beekeeper-studio
   - https://dbgate.org/
@@ -58,6 +58,8 @@
 - guacamole
 - webtrees
 - Graphana Loki
+- whodb
+- phpmyadmin
 
 
 ## Tools
