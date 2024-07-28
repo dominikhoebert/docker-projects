@@ -1,0 +1,11 @@
+name: olivetin
+
+services:
+  olivetin:
+    container_name: olivetin
+    image: jamesread/olivetin
+    volumes:
+      - ./config:/config
+    ports:
+      - 1337:1337
+    restart: unless-stopped
