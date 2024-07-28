@@ -46,6 +46,7 @@
 - netdata
   - demo: https://app.netdata.cloud/spaces/netdata-demo/rooms/all-nodes
 - stirlingpdf
+- redis
 
 ### add to readme and homepage
 
@@ -58,6 +59,7 @@
 - postgres15
 - dbgate
 - databases
+- dawarich
 
 
 ## Tools

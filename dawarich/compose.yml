@@ -1,0 +1,92 @@
+# https://github.com/Freika/dawarich
+
+# import your location history from Google Maps Timeline and Owntracks, view it on a map and see some statistics, such as the number of countries and cities visited, and distance traveled
+
+name: dawarich
+
+services:
+  redis:
+    image: redis:7.0-alpine
+    command: redis-server
+    container_name: redis
+    volumes:
+      - shared_data:/var/shared/redis
+  postgres14:
+    image: postgres:14.2-alpine
+    container_name: postgres14
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - shared_data:/var/shared
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+  dawarich:
+    image: freikin/dawarich:latest
+    container_name: dawarich
+    volumes:
+      - gem_cache:/usr/local/bundle/gems
+      - public:/var/app/public
+    ports:
+      - 3007:3000
+    stdin_open: true
+    tty: true
+    entrypoint: dev-entrypoint.sh
+    command: ['bin/dev']
+    restart: on-failure
+    environment:
+      RAILS_ENV: development
+      REDIS_URL: redis://redis:6379/0
+      DATABASE_HOST: postgres14
+      DATABASE_USERNAME: postgres
+      DATABASE_PASSWORD: password
+      DATABASE_NAME: dawarich
+      MIN_MINUTES_SPENT_IN_CITY: 60
+      APPLICATION_HOST: localhost
+      APPLICATION_HOSTS: localhost
+      TIME_ZONE: Europe/Vienna
+      APPLICATION_PROTOCOL: http
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "5"
+    depends_on:
+      - postgres14
+      - redis
+  sidekiq:
+    image: freikin/dawarich:latest
+    container_name: sidekiq
+    volumes:
+      - gem_cache:/usr/local/bundle/gems
+      - public:/var/app/public
+    stdin_open: true
+    tty: true
+    entrypoint: dev-entrypoint.sh
+    command: ['sidekiq']
+    restart: on-failure
+    environment:
+      RAILS_ENV: development
+      REDIS_URL: redis://redis:6379/0
+      DATABASE_HOST: postgres14
+      DATABASE_USERNAME: postgres
+      DATABASE_PASSWORD: password
+      DATABASE_NAME: dawarich
+      APPLICATION_HOST: localhost
+      APPLICATION_HOSTS: localhost
+      BACKGROUND_PROCESSING_CONCURRENCY: 10
+      APPLICATION_PROTOCOL: http
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "5"
+    depends_on:
+      - postgres14
+      - redis
+      - dawarich
+
+volumes:
+  db_data:
+  gem_cache:
+  shared_data:
+  public:
