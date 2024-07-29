@@ -27,8 +27,6 @@
 
 ## ToDo
 
-- nginx
-- obsidian livesync
 - whoami
 - adguard home
 - dozzle
@@ -75,6 +73,8 @@
 - olivetin
 - authentik
 - alpine
+- nginx
+- obsidian livesync
 
 ## Tools
 

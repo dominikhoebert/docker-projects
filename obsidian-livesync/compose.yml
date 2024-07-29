@@ -1,0 +1,19 @@
+# https://github.com/vrtmrz/obsidian-livesync
+# Self-hosted LiveSync is a community-implemented synchronization plugin, available on every obsidian-compatible platform and using CouchDB or Object Storage
+# http://localhost:5984/_utils/
+
+name: obsidian-livesync
+services:
+  couchdb:
+    image: couchdb:latest
+    container_name: obsidian-livesync
+    user: 0:0
+    environment:
+      - COUCHDB_USER=user
+      - COUCHDB_PASSWORD=testitest
+    volumes:
+      - /mnt/cache/appdata/obsidian-livesync/data:/opt/couchdb/data
+      - /mnt/cache/appdata/obsidian-livesync/local.ini:/opt/couchdb/etc/local.ini
+    # Ports not needed when already passed to Traefik
+    ports:
+     - 5984:5984
