@@ -27,8 +27,6 @@
 
 ## ToDo
 
-- Authentik
-- alpine
 - nginx
 - obsidian livesync
 - whoami
@@ -76,6 +74,7 @@
 - dawarich
 - olivetin
 - authentik
+- alpine
 
 ## Tools
 

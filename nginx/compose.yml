@@ -1,0 +1,20 @@
+# https://hub.docker.com/_/nginx
+
+# Nginx (pronounced "engine-x") is an open source reverse proxy server for 
+# HTTP, HTTPS, SMTP, POP3, and IMAP protocols, as well as a load balancer, HTTP cache, and a web server (origin server).
+
+name: nginx
+services:
+  nginx:
+    image: nginx
+    container_name: nginx
+    ports:
+      - 82:80
+      # (optional) uncomment the line below to enable HTTPS
+      # - 443:443
+    volumes:
+      - ./config/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./data:/usr/share/nginx/html:ro
+    environment:
+      NGINX_HOST: localhost
+      NGINX_PORT: 80
