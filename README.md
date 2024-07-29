@@ -27,8 +27,6 @@
 
 ## ToDo
 
-- https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose
-
 - Authentik
 - alpine
 - nginx
@@ -49,6 +47,12 @@
 - redis
 - tinyfilemanager
 - vaultwarden
+- https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose
+  - cadvisor
+  - heimdall
+  - homer
+  - influxdb2
+  - pihole
 
 ### Übung
 
@@ -71,6 +75,7 @@
 - databases
 - dawarich
 - olivetin
+- authentik
 
 ## Tools
 

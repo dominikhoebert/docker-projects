@@ -2,6 +2,8 @@
 
 # import your location history from Google Maps Timeline and Owntracks, view it on a map and see some statistics, such as the number of countries and cities visited, and distance traveled
 
+# Default credentials user@domain.com/password
+
 name: dawarich
 
 services:
