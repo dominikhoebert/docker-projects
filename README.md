@@ -27,7 +27,6 @@
 
 ## ToDo
 
-- whoami
 - adguard home
 - dozzle
 - dockge
@@ -75,6 +74,7 @@
 - alpine
 - nginx
 - obsidian livesync
+- whoami
 
 ## Tools
 

@@ -1,0 +1,15 @@
+# https://hub.docker.com/r/traefik/whoami
+
+# Tiny Go webserver that prints OS information and HTTP request to output
+
+name: whoami
+services:
+  whoami-test:
+    image: traefik/whoami
+    container_name: whoami
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      - TZ=Europe/Vienna
+    ports:
+      - 83:80
