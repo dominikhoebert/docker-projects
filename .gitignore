@@ -22,3 +22,6 @@ postgres/data/
 postgres/dev/
 databases/dev/
 mariadb/dbgate-data/
+authentik/certs/
+authentik/custom-templates/
+authentik/media/

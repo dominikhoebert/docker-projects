@@ -1,0 +1,15 @@
+# https://hub.docker.com/_/alpine
+
+# Alpine Linux⁠ is a Linux distribution built around musl libc⁠ and BusyBox⁠.
+# The image is only 5 MB in size and has access to a package repository⁠ that is much more complete than other BusyBox based images.
+# This makes Alpine Linux a great image base for utilities and even production applications.
+
+name: alpine
+services:
+    alpine:
+        stdin_open: true
+        tty: true
+        container_name: alpine
+        image: alpine
+        command: ash
+        
