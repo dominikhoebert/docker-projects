@@ -27,7 +27,6 @@
 
 ## ToDo
 
-- adguard home
 - dozzle
 - dockge
 - glances
@@ -75,6 +74,7 @@
 - nginx
 - obsidian livesync
 - whoami
+- adguard home
 
 ## Tools
 
