@@ -25,3 +25,5 @@ mariadb/dbgate-data/
 authentik/certs/
 authentik/custom-templates/
 authentik/media/
+dockge/data/
+dockge/stacks/

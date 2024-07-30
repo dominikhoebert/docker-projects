@@ -1,0 +1,23 @@
+# https://github.com/louislam/dockge
+
+# A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager.
+
+name: dockge
+
+services:
+  dockge:
+    image: louislam/dockge:1
+    container_name: dockge
+    ports:
+      - 5001:5001
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./data:/app/data
+      # Stacks Directory
+      # ⚠️ READ IT CAREFULLY. If you did it wrong, your data could end up writing into a WRONG PATH.
+      # ⚠️ 1. FULL path only. No relative path (MUST)
+      # ⚠️ 2. Left Stacks Path === Right Stacks Path (MUST)
+      - ./stacks:/opt/stacks
+    environment:
+      # Tell Dockge where to find the stacks
+      - DOCKGE_STACKS_DIR=/opt/stacks
