@@ -1,0 +1,14 @@
+# https://dozzle.dev/
+
+# Real-time logging and monitoring for Docker in the browser
+
+name: dozzle
+
+services:
+  dozzle:
+    image: amir20/dozzle:latest
+    container_name: dozzle
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 8087:8080
