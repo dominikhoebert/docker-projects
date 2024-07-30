@@ -1,0 +1,29 @@
+# dummyhttps://nicolargo.github.io/glances/
+
+# a cross-platform system monitoring tool written in Python
+# http://localhost:61208/
+
+name: glances
+services:
+  glances:
+    container_name: glances
+    image: nicolargo/glances:latest-full
+    #restart: always
+    pid: "host"
+    privileged: true
+    network_mode: "host"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      #- "/run/user/1000/podman/podman.sock:/run/user/1000/podman/podman.sock:ro"
+      - ./glances.conf:/etc/glances/glances.conf
+    environment:
+      - TZ=Europe/Vienna
+      - GLANCES_OPT=-w
+    # Uncomment for GPU compatibility (Nvidia) inside the container
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
