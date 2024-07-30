@@ -1,3 +1,7 @@
+# https://github.com/OliveTin/OliveTin
+
+# safe and simple access to predefined shell commands from a web interface
+
 name: olivetin
 
 services:
@@ -9,3 +13,9 @@ services:
     ports:
       - 1337:1337
     restart: unless-stopped
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

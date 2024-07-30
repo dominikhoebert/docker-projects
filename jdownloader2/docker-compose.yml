@@ -11,3 +11,9 @@ services:
     volumes:
       - "./config:/config:rw"
       - "./downloads:/output:rw"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

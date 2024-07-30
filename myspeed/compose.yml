@@ -12,3 +12,9 @@ services:
         restart: unless-stopped
         container_name: myspeed
         image: germannewsmaker/myspeed
+        networks:
+            - proxy
+
+networks:
+    proxy:
+        external: true

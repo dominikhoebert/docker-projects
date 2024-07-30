@@ -14,3 +14,9 @@ services:
       - './portainer_data:/data'
     image: portainer/portainer-ce:latest
     restart: 'unless-stopped'
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

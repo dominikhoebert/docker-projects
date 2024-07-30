@@ -10,3 +10,9 @@ services:
     ports:
       - 3001:3001
     restart: always
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

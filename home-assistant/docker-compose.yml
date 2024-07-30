@@ -11,3 +11,9 @@ services:
       - TZ=Europe/Vienna
     volumes:
       - ./homeassistant_config:/config
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

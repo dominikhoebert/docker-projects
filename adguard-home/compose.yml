@@ -11,7 +11,14 @@ services:
             - 53:53
             - 67:67/udp
             - 68:68/udp
+            - 3002:3000
             #- 80:80/tcp
             #- 443:443/tcp
             #- 443:443/udp
         image: adguard/adguardhome
+        networks:
+            - proxy
+
+networks:
+    proxy:
+        external: true

@@ -13,3 +13,9 @@ services:
       - ~:/root
       - /:/mnt/fs
     image: coderaiser/cloudcmd
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

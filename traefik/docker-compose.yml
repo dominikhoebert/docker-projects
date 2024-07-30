@@ -1,16 +1,14 @@
-networks:
-  traefik-network:
-
-    # https://doc.traefik.io/traefik/
+name: traefik
+# https://doc.traefik.io/traefik/
 services:
   traefik:
     image: docker.io/library/traefik:2.11.2
     container_name: traefik
     ports:
-      - 80:80
-      - 443:443
+      - 83:80
+      - 444:443
       # -- (Optional) Enable Dashboard, don't do in production
-      - 8082:8080
+      - 8085:8080
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./config:/etc/traefik
@@ -20,5 +18,8 @@ services:
       - CF_DNS_API_TOKEN=xxx
     # -- (Optional) When using a custom network
     networks:
-      - traefik-network
-    restart: unless-stopped
+      - proxy
+
+networks:
+  proxy:
+    external: true

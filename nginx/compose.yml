@@ -18,3 +18,9 @@ services:
     environment:
       NGINX_HOST: localhost
       NGINX_PORT: 80
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

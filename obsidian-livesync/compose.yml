@@ -12,8 +12,15 @@ services:
       - COUCHDB_USER=user
       - COUCHDB_PASSWORD=testitest
     volumes:
-      - /mnt/cache/appdata/obsidian-livesync/data:/opt/couchdb/data
-      - /mnt/cache/appdata/obsidian-livesync/local.ini:/opt/couchdb/etc/local.ini
+      - ./data:/opt/couchdb/data
+      - ./config/local.ini:/opt/couchdb/etc/local.ini
     # Ports not needed when already passed to Traefik
     ports:
-     - 5984:5984
+      - 5984:5984
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+

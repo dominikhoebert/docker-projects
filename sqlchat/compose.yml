@@ -4,11 +4,17 @@
 
 name: sqlchat
 services:
-    sqlchat:
-        container_name: sqlchat
-        platform: linux/amd64
-        environment:
-            - OPENAI_API_KEY=???
-        ports:
-          - 3005:3000
-        image: sqlchat/sqlchat
+  sqlchat:
+    container_name: sqlchat
+    platform: linux/amd64
+    environment:
+      - OPENAI_API_KEY=???
+    ports:
+      - 3005:3000
+    image: sqlchat/sqlchat
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

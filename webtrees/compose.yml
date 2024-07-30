@@ -6,9 +6,10 @@ name: webtrees
 
 services:
   webtrees:
+    container_name: webtrees
     image: ghcr.io/nathanvaughn/webtrees:latest
     ports:
-      - 82:80
+      - 86:80
       #- 443:443
     environment:
       PRETTY_URLS: "0"
@@ -29,7 +30,12 @@ services:
     volumes:
       # - ~/certs:/certs/
       - app_data:/var/www/webtrees/data/
+    networks:
+      - proxy
 
+networks:
+  proxy:
+    external: true
   # db:
   #   environment:
   #     MARIADB_DATABASE: "webtrees"

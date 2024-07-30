@@ -21,6 +21,8 @@ services:
       - MYSQL_PASSWORD=example
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
+    networks:
+      - proxy
 
   nextcloud:
     image: nextcloud
@@ -37,3 +39,9 @@ services:
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
       - MYSQL_HOST=db
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

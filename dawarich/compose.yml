@@ -13,6 +13,8 @@ services:
     container_name: redis
     volumes:
       - shared_data:/var/shared/redis
+    networks:
+      - proxy
   postgres14:
     image: postgres:14.2-alpine
     container_name: postgres14
@@ -22,6 +24,8 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
+    networks:
+      - proxy
   dawarich:
     image: freikin/dawarich:latest
     container_name: dawarich
@@ -33,7 +37,7 @@ services:
     stdin_open: true
     tty: true
     entrypoint: dev-entrypoint.sh
-    command: ['bin/dev']
+    command: [ 'bin/dev' ]
     restart: on-failure
     environment:
       RAILS_ENV: development
@@ -55,6 +59,8 @@ services:
     depends_on:
       - postgres14
       - redis
+    networks:
+      - proxy
   sidekiq:
     image: freikin/dawarich:latest
     container_name: sidekiq
@@ -64,7 +70,7 @@ services:
     stdin_open: true
     tty: true
     entrypoint: dev-entrypoint.sh
-    command: ['sidekiq']
+    command: [ 'sidekiq' ]
     restart: on-failure
     environment:
       RAILS_ENV: development
@@ -86,6 +92,12 @@ services:
       - postgres14
       - redis
       - dawarich
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
 
 volumes:
   db_data:

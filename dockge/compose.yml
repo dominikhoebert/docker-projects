@@ -9,7 +9,7 @@ services:
     image: louislam/dockge:1
     container_name: dockge
     ports:
-      - 5001:5001
+      - 5002:5001
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./data:/app/data
@@ -21,3 +21,9 @@ services:
     environment:
       # Tell Dockge where to find the stacks
       - DOCKGE_STACKS_DIR=/opt/stacks
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

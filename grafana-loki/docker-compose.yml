@@ -1,7 +1,12 @@
-version: '3.0'
+# https://grafana.com/docs/loki/latest/
+
+# Grafana Loki is a set of open source components that can be composed into a fully featured logging stack. A small index and highly compressed chunks simplifies the operation and significantly lowers the cost of Loki.
+
+name: grafana-loki
 
 services:
   grafana:
+    container_name: grafana
     image: grafana/grafana:11.0.0
     environment:
       - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
@@ -15,7 +20,10 @@ services:
       - ./provisioning:/etc/grafana/provisioning
     extra_hosts:
       - 'host.docker.internal:host-gateway'
+    networks:
+      - proxy
   loki:
+    container_name: loki
     image: grafana/loki:main-e9b6ce9
     environment:
       LOG_CLUSTER_DEPTH: '8'
@@ -26,6 +34,15 @@ services:
       - ./config/loki-config.yaml:/etc/loki/local-config.yaml
     command: -config.file=/etc/loki/local-config.yaml
     restart: on-failure
+    networks:
+      - proxy
   generator:
+    container_name: generator
     image: us-docker.pkg.dev/grafanalabs-global/docker-explore-logs-prod/fake-log-generator:latest
     command: -url http://loki:3100/loki/api/v1/push
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

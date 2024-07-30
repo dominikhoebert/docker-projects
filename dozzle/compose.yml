@@ -12,3 +12,9 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - 8087:8080
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

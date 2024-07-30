@@ -27,6 +27,8 @@ services:
       - gramps_db:/root/.gramps/grampsdb # persist Gramps database
       - gramps_media:/app/media # persist media files
       - gramps_tmp:/tmp
+    networks:
+      - proxy
 
   grampsweb_celery:
     <<: *grampsweb # YAML merge key copying the entire grampsweb service config
@@ -35,11 +37,19 @@ services:
     depends_on:
       - grampsweb_redis
     command: celery -A gramps_webapi.celery worker --loglevel=INFO
+    networks:
+      - proxy
 
   grampsweb_redis:
     image: redis:7.2.4-alpine
     container_name: grampsweb_redis
     restart: always
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
 
 volumes:
   gramps_users:

@@ -10,6 +10,8 @@ services:
       - ./influxdb/config:/etc/influxdb2
     restart: unless-stopped
     image: influxdb:2.1.1
+    networks:
+      - proxy
   # https://www.influxdata.com/time-series-platform/telegraf/
   telegraf:
     container_name: telegraf
@@ -18,3 +20,9 @@ services:
       - influxdb
     volumes:
       - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

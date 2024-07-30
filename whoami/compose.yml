@@ -12,4 +12,10 @@ services:
     environment:
       - TZ=Europe/Vienna
     ports:
-      - 83:80
+      - 84:80
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

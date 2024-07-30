@@ -12,4 +12,9 @@ services:
         container_name: alpine
         image: alpine
         command: ash
-        
+        networks:
+            - proxy
+
+networks:
+    proxy:
+        external: true

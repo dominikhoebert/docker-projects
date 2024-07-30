@@ -12,3 +12,9 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     command: --schedule "0 4 * * *"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

@@ -27,3 +27,6 @@ authentik/custom-templates/
 authentik/media/
 dockge/data/
 dockge/stacks/
+adguard-home/work/
+adguard-home/conf/
+obsidian-livesync/data/

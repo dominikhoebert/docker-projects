@@ -351,3 +351,11 @@
 -------------------^
  144 |         href: http://localhost:8086
  145 |         description: time-series database d ...
+[2024-07-30T09:56:15.592Z] error: Failed to load services.yaml, please check for errors
+[2024-07-30T09:56:15.595Z] error: TypeError: Cannot read properties of null (reading 'map')
+[2024-07-30T09:56:16.357Z] error: Failed to load services.yaml, please check for errors
+[2024-07-30T09:56:16.357Z] error: TypeError: Cannot read properties of null (reading 'map')
+[2024-07-30T09:56:17.592Z] error: Failed to load services.yaml, please check for errors
+[2024-07-30T09:56:17.592Z] error: TypeError: Cannot read properties of null (reading 'map')
+[2024-07-30T09:56:28.116Z] error: Failed to load services.yaml, please check for errors
+[2024-07-30T09:56:28.116Z] error: TypeError: Cannot read properties of null (reading 'map')
