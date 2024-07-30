@@ -92,11 +92,6 @@ docker network create --driver bridge proxy
 
 ### add to readme and homepage
 
-- webtrees
-- sqlchat
-- postgres15
-- olivetin
-- whoami
 - glances
 
 ## Tools

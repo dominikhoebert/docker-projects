@@ -359,3 +359,775 @@
 [2024-07-30T09:56:17.592Z] error: TypeError: Cannot read properties of null (reading 'map')
 [2024-07-30T09:56:28.116Z] error: Failed to load services.yaml, please check for errors
 [2024-07-30T09:56:28.116Z] error: TypeError: Cannot read properties of null (reading 'map')
+[2024-07-30T13:32:06.320Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:32:06.322Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:32:06.333Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:32:06.334Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:32:38.312Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:32:38.313Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:32:38.317Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:32:38.321Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:32:50.611Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:32:50.612Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:32:50.623Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:32:50.623Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:33:04.997Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:33:04.999Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:33:05.012Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:33:05.013Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:33:42.680Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:33:42.681Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:33:42.692Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:33:42.693Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:34:08.243Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:34:08.243Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:34:08.254Z] error: <httpProxy> Error calling http://webtrees:86/...
+[2024-07-30T13:34:08.254Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:44:24.424Z] error: undefined
+[2024-07-30T13:44:24.433Z] error: undefined
+[2024-07-30T13:44:24.463Z] error: undefined
+[2024-07-30T13:44:24.513Z] error: undefined
+[2024-07-30T13:44:37.011Z] error: undefined
+[2024-07-30T13:44:37.022Z] error: undefined
+[2024-07-30T13:44:37.024Z] error: undefined
+[2024-07-30T13:44:37.032Z] error: undefined
+[2024-07-30T13:44:39.930Z] error: undefined
+[2024-07-30T13:44:39.934Z] error: undefined
+[2024-07-30T13:44:39.967Z] error: undefined
+[2024-07-30T13:44:40.018Z] error: undefined
+[2024-07-30T13:44:51.594Z] error: undefined
+[2024-07-30T13:44:51.605Z] error: undefined
+[2024-07-30T13:44:51.615Z] error: undefined
+[2024-07-30T13:44:51.628Z] error: undefined
+[2024-07-30T13:44:55.860Z] error: undefined
+[2024-07-30T13:44:55.862Z] error: undefined
+[2024-07-30T13:44:55.883Z] error: undefined
+[2024-07-30T13:44:55.899Z] error: undefined
+[2024-07-30T13:45:08.456Z] error: undefined
+[2024-07-30T13:45:08.469Z] error: undefined
+[2024-07-30T13:45:08.478Z] error: undefined
+[2024-07-30T13:45:08.480Z] error: undefined
+[2024-07-30T13:45:49.183Z] error: <httpProxy> Error calling http://guacamole/...
+[2024-07-30T13:45:49.183Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:45:52.481Z] error: <httpProxy> Error calling http://guacamole/...
+[2024-07-30T13:45:52.481Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:46:18.883Z] error: <httpProxy> Error calling http://guacamole/...
+[2024-07-30T13:46:18.883Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:46:22.194Z] error: <httpProxy> Error calling http://guacamole/...
+[2024-07-30T13:46:22.194Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:46:35.878Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:46:35.878Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:46:39.174Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:46:39.174Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:46:50.469Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:46:50.470Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:46:53.778Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:46:53.778Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:47:13.876Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:47:13.877Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:47:17.176Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:47:17.176Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:47:28.177Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:47:28.178Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:47:31.470Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:47:31.470Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:47:57.720Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:47:57.720Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:48:01.011Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:48:01.011Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:48:29.186Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:48:29.186Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:48:32.491Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:48:32.491Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:48:47.373Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:48:47.374Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:48:50.676Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:48:50.676Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:49:30.393Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:49:30.393Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:49:33.687Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:49:33.687Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:49:45.902Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:49:45.902Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:49:46.286Z] error: <httpProxy> Error calling http://adminer:8081/...
+[2024-07-30T13:49:46.287Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adminer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adminer'
+  }
+]
+[2024-07-30T13:49:49.212Z] error: <httpProxy> Error calling http://dbgate:8084/...
+[2024-07-30T13:49:49.212Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND dbgate
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dbgate'
+  }
+]
+[2024-07-30T13:49:49.566Z] error: <httpProxy> Error calling http://phpmyadmin:8083/...
+[2024-07-30T13:49:49.566Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND phpmyadmin
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'phpmyadmin'
+  }
+]
+[2024-07-30T13:49:52.498Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:49:52.498Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:49:52.855Z] error: <httpProxy> Error calling http://adminer:8081/...
+[2024-07-30T13:49:52.856Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adminer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adminer'
+  }
+]
+[2024-07-30T13:49:55.815Z] error: <httpProxy> Error calling http://whodb:8082/...
+[2024-07-30T13:49:55.815Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND whodb
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'whodb'
+  }
+]
+[2024-07-30T13:49:56.155Z] error: <httpProxy> Error calling http://dbgate:8084/...
+[2024-07-30T13:49:56.155Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND dbgate
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dbgate'
+  }
+]
+[2024-07-30T13:49:59.113Z] error: <httpProxy> Error calling http://authentik:9000/...
+[2024-07-30T13:49:59.114Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik'
+  }
+]
+[2024-07-30T13:49:59.438Z] error: <httpProxy> Error calling http://phpmyadmin:8083/...
+[2024-07-30T13:49:59.438Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND phpmyadmin
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'phpmyadmin'
+  }
+]
+[2024-07-30T13:50:02.419Z] error: <httpProxy> Error calling http://whodb:8082/...
+[2024-07-30T13:50:02.419Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND whodb
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'whodb'
+  }
+]
+[2024-07-30T13:50:02.484Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:50:02.485Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:50:02.495Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:50:02.496Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:50:02.739Z] error: <httpProxy> Error calling http://authentik:9000/...
+[2024-07-30T13:50:02.739Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik'
+  }
+]
+[2024-07-30T13:50:18.471Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:50:18.471Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:50:18.569Z] error: <httpProxy> Error calling http://adminer:8081/...
+[2024-07-30T13:50:18.571Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adminer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adminer'
+  }
+]
+[2024-07-30T13:50:21.776Z] error: <httpProxy> Error calling http://dbgate:8084/...
+[2024-07-30T13:50:21.777Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND dbgate
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dbgate'
+  }
+]
+[2024-07-30T13:50:21.854Z] error: <httpProxy> Error calling http://phpmyadmin:8083/...
+[2024-07-30T13:50:21.854Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND phpmyadmin
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'phpmyadmin'
+  }
+]
+[2024-07-30T13:50:25.074Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:50:25.075Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:50:25.150Z] error: <httpProxy> Error calling http://adminer:8081/...
+[2024-07-30T13:50:25.150Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adminer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adminer'
+  }
+]
+[2024-07-30T13:50:28.365Z] error: <httpProxy> Error calling http://whodb:8082/...
+[2024-07-30T13:50:28.366Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND whodb
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'whodb'
+  }
+]
+[2024-07-30T13:50:28.444Z] error: <httpProxy> Error calling http://dbgate:8084/...
+[2024-07-30T13:50:28.444Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND dbgate
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'dbgate'
+  }
+]
+[2024-07-30T13:50:31.670Z] error: <httpProxy> Error calling http://authentik:9000/...
+[2024-07-30T13:50:31.671Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik'
+  }
+]
+[2024-07-30T13:50:31.746Z] error: <httpProxy> Error calling http://phpmyadmin:8083/...
+[2024-07-30T13:50:31.746Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND phpmyadmin
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'phpmyadmin'
+  }
+]
+[2024-07-30T13:50:34.961Z] error: <httpProxy> Error calling http://whodb:8082/...
+[2024-07-30T13:50:34.962Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND whodb
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'whodb'
+  }
+]
+[2024-07-30T13:50:34.999Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:50:34.999Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:50:35.008Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:50:35.008Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:50:35.037Z] error: <httpProxy> Error calling http://authentik:9000/...
+[2024-07-30T13:50:35.037Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND authentik
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'authentik'
+  }
+]
+[2024-07-30T13:50:58.394Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:50:58.394Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:50:58.471Z] error: <httpProxy> Error calling http://adminer:8081/...
+[2024-07-30T13:50:58.471Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adminer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adminer'
+  }
+]
+[2024-07-30T13:51:01.692Z] error: <httpProxy> Error calling http://guacamole:8080/...
+[2024-07-30T13:51:01.692Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND guacamole
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'guacamole'
+  }
+]
+[2024-07-30T13:51:01.772Z] error: <httpProxy> Error calling http://adminer:8081/...
+[2024-07-30T13:51:01.772Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adminer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adminer'
+  }
+]
+[2024-07-30T13:51:02.029Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:51:02.030Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:51:02.036Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:51:02.037Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:51:17.028Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:51:17.029Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:51:17.041Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:51:17.042Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:51:46.042Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:51:46.043Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-07-30T13:51:46.048Z] error: <httpProxy> Error calling http://adguard-home:3002/...
+[2024-07-30T13:51:46.048Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
