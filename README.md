@@ -46,7 +46,7 @@ docker network create --driver bridge proxy
 | [Radarr](https://github.com/linuxserver/docker-radarr)                | [7878](http://localhost:7878)          |
 | [SQLChat](https://github.com/sqlchat/sqlchat)                         | [3005](http://localhost:3005)          |
 | [Telegraf](https://www.influxdata.com/time-series-platform/telegraf/) |                                        |
-| [traefik](https://doc.traefik.io/traefik/)                            | [8085](http://localhost:8082) 83 444   |
+| [traefik](https://doc.traefik.io/traefik/)                            | [8085](http://localhost:8085) 83 444   |
 | [Transmission](https://github.com/linuxserver/docker-transmission)    | [9091](http://localhost:9091)          |
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma)                | [3001](http://localhost:3001)          |
 | [Watchtower](https://containrrr.dev/watchtower/)                      |                                        |
@@ -63,10 +63,11 @@ docker network create --driver bridge proxy
 
 ## ToDo
 
-- moodle
-- kavita
-- mealie
-- metube
+- glances 61208 test on windows
+- moodle 8089
+- kavita 5003
+- mealie 9925
+- metube 8088
 - pinchflat
 - netalertx
 - netdata
@@ -79,7 +80,6 @@ docker network create --driver bridge proxy
   - cadvisor
   - heimdall
   - homer
-  - influxdb2
   - pihole
 
 ### Übung
@@ -89,10 +89,6 @@ docker network create --driver bridge proxy
 - Nginx Proxy Manager
 - beliebige App
 - gemeinsames poxy Docker Netzwerk
-
-### add to readme and homepage
-
-- glances
 
 ## Tools
 
