@@ -1,0 +1,37 @@
+# https://demo.mealie.io/login
+# https://mealie.io/
+# intuitive and easy to use recipe management app
+
+name: mealie
+services:
+  mealie:
+    image: ghcr.io/mealie-recipes/mealie:v1.11.0 # 
+    container_name: mealie
+    restart: always
+    ports:
+      - "9925:9000" # 
+    deploy:
+      resources:
+        limits:
+          memory: 1000M # 
+    volumes:
+      - mealie-data:/app/data/
+    environment:
+      # Set Backend ENV Variables Here
+      ALLOW_SIGNUP: false
+      PUID: 1000
+      PGID: 1000
+      TZ: Europe/Vienna
+      MAX_WORKERS: 1
+      WEB_CONCURRENCY: 1
+      BASE_URL: https://mealie.yourdomain.com
+    networks:
+      - proxy
+
+volumes:
+  mealie-data:
+  
+networks:
+  proxy:
+    external: true
+  
