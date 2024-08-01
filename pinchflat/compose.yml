@@ -1,0 +1,25 @@
+# https://github.com/kieraneglin/pinchflat
+
+# app for downloading YouTube content built using yt-dlp. It's designed to be lightweight, self-contained, and easy to use. You set up rules for how to download content from YouTube channels or playlists and it'll do the rest, periodically checking for new content
+
+name: pinchflat
+
+services:
+  pinchflat:
+    container_name: pinchflat
+    image: ghcr.io/kieraneglin/pinchflat:latest
+    environment:
+      # Set the timezone to your local timezone
+      - TZ=Europe/Vienna
+    ports:
+      - '8945:8945'
+    volumes:
+      - ./config:/config
+      - ./downloads:/downloads
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  

@@ -68,7 +68,7 @@ docker network create --driver bridge proxy
 - kavita 5003
 - mealie 9925
 - metube 8088
-- pinchflat
+- pinchflat 8945
 - netalertx
 - netdata
   - demo: https://app.netdata.cloud/spaces/netdata-demo/rooms/all-nodes
