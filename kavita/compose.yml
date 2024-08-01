@@ -1,0 +1,24 @@
+# https://www.kavitareader.com/
+
+# Lightning fast with a slick design, Kavita is a rocket fueled self-hosted digital library which supports a vast array of file formats
+
+#  https://demo.kavitareader.com demouser/Demouser64 
+
+name: kavita
+
+services:
+  kavita:
+    container_name: kavita
+    image: jvmilazz0/kavita:latest
+    volumes:
+      - ./manga:/manga
+      - ./data:/kavita/config
+    ports:
+      - "5003:5000"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
