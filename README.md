@@ -70,8 +70,7 @@ docker network create --driver bridge proxy
 - metube 8088
 - pinchflat 8945
 - netalertx 20211 test on windows
-- netdata
-  - demo: https://app.netdata.cloud/spaces/netdata-demo/rooms/all-nodes
+- netdata 19999 test on windows
 - stirlingpdf
 - redis
 - tinyfilemanager
@@ -95,3 +94,7 @@ docker network create --driver bridge proxy
 ## Tools
 
 - [Composerize](https://www.composerize.com/)
+
+## Issues
+
+Web UI of container running in host networking mode on macOS do not seem to be reachable.
