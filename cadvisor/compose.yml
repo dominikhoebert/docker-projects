@@ -1,0 +1,28 @@
+# https://github.com/google/cadvisor
+
+# provides container users an understanding of the resource usage and performance characteristics of their running containers
+
+name: cadvisor
+services:
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:v0.50.0
+    container_name: cadvisor
+    ports:
+      - 8096:8080
+    volumes:
+      #- /var/run/docker.sock:/var/run/docker.sock
+      - /:/rootfs:ro
+      - /run:/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk/:/dev/disk:ro
+    devices:
+      - /dev/kmsg
+    privileged: true
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  

@@ -79,7 +79,7 @@ docker network create --driver bridge proxy
 - cyberchef 8094
 - https://it-tools.tech/ 8095
 - https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose
-  - cadvisor
+  - cadvisor 8096
   - heimdall
   - homer
   - pihole
