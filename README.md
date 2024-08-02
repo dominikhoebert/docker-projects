@@ -74,7 +74,8 @@ docker network create --driver bridge proxy
 - stirlingpdf 8092
 - redis 6379
 - tinyfilemanager 8091
-- vaultwarden
+- jupytherlab 8888
+- vaultwarden 
 - cyberchef
 - https://it-tools.tech/
 - https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose

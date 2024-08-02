@@ -1,0 +1,22 @@
+# https://jupyter.org/
+# https://jupyter.org/try-jupyter/lab/
+
+# web-based interactive development environment for notebooks, code, and data. It supports over 40 programming languages, big data integration, and a multi-user version of the notebook called JupyterHub
+
+name: jupyter
+services:
+  jupyter:
+    image: jupyter/datascience-notebook:latest
+    container_name: jupyter
+    ports:
+      - 8888:8888
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
+      JUPYTER_TOKEN: "changeme"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
