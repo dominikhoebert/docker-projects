@@ -1,0 +1,24 @@
+# https://tinyfilemanager.github.io/
+# https://tinyfilemanager.github.io/demo/
+
+# TinyFileManager is web based PHP file manager and it is a simple, fast and small size in single-file PHP file that can be dropped into any folder on your server, multi-language ready web application for storing, uploading, editing and managing files and folders online via web browser
+# Default username/password: admin/admin@123 and user/12345
+
+name: tinyfilemanager
+
+services:
+  tinyfilemanager:
+    volumes:
+        - ~:/var/www/html/data
+    ports:
+        - 8091:80
+    restart: always
+    container_name: tinyfilemanager
+    image: tinyfilemanager/tinyfilemanager:master
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  

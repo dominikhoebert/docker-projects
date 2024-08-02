@@ -73,7 +73,7 @@ docker network create --driver bridge proxy
 - netdata 19999 test on windows
 - stirlingpdf 8092
 - redis 6379
-- tinyfilemanager
+- tinyfilemanager 8091
 - vaultwarden
 - cyberchef
 - https://it-tools.tech/
