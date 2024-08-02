@@ -83,8 +83,8 @@ docker network create --driver bridge proxy
   - heimdall 8097
   - homer 8099
   - pihole 9002 test on windows
-- https://github.com/claabs/epicgames-freegames-node
-- https://github.com/vogler/free-games-claimer
+- https://github.com/claabs/epicgames-freegames-node 3003
+- https://github.com/vogler/free-games-claimer 6080
 - https://about.gitea.com/
 - https://www.navidrome.org/
 - https://github.com/linuxserver/docker-webtop

@@ -1,0 +1,27 @@
+# https://github.com/vogler/free-games-claimer
+
+# Claims free games periodically on Epic Games Store Amazon Prime Gaming GOG Unreal Engine (Assets)
+
+name: free-games-claimer
+
+services:
+  free-games-claimer:
+    container_name: free-games-claimer
+    stdin_open: true
+    tty: true
+    ports:
+      - 6080:6080
+    volumes:
+      - ./data:/fgc/data
+    pull_policy: always
+    image: ghcr.io/vogler/free-games-claimer
+    networks:
+      - proxy
+
+volumes:
+  fgc:
+
+networks:
+  proxy:
+    external: true
+  

@@ -1,0 +1,23 @@
+# https://github.com/claabs/epicgames-freegames-node
+# Automatically login and find available free games the Epic Games Store. Sends you a prepopulated checkout link so you can complete the checkout after logging in
+
+name: epicgames-freegames-node
+services:
+  epicgames-freegames-node:
+    container_name: epicgames-freegames-node
+    volumes:
+      - ./config:/usr/app/config:rw
+    ports:
+      - 3003:3000
+    deploy:
+      resources:
+        limits:
+          memory: 2g
+    image: ghcr.io/claabs/epicgames-freegames-node:latest
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
