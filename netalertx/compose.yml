@@ -1,0 +1,22 @@
+# https://github.com/jokob-sk/NetAlertX
+
+# Get visibility of what's going on on your WIFI/LAN network. Schedule scans for devices, port changes and get alerts if unknown devices or changes are found
+
+name: netalertx
+services:
+  netalertx:
+    container_name: netalertx
+    # use the below line if you want to test the latest dev image
+    # image: "jokobsk/netalertx-dev:latest" 
+    image: "jokobsk/netalertx:latest"      
+    network_mode: "host"        
+    restart: unless-stopped
+    volumes:
+      - ./config:/app/config
+      - ./db:/app/db      
+      # (optional) useful for debugging if you have issues setting up the container
+      - ./logs:/app/front/log
+    environment:
+      - TZ=Europe/Vienna      
+      #- PORT=20211
+  

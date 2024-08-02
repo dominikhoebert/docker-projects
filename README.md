@@ -69,13 +69,15 @@ docker network create --driver bridge proxy
 - mealie 9925
 - metube 8088
 - pinchflat 8945
-- netalertx
+- netalertx 20211 test on windows
 - netdata
   - demo: https://app.netdata.cloud/spaces/netdata-demo/rooms/all-nodes
 - stirlingpdf
 - redis
 - tinyfilemanager
 - vaultwarden
+- cyberchef
+- https://it-tools.tech/
 - https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose
   - cadvisor
   - heimdall
