@@ -82,7 +82,7 @@ docker network create --driver bridge proxy
   - cadvisor 8096
   - heimdall 8097
   - homer 8099
-  - pihole 
+  - pihole 9002 test on windows
 - https://github.com/claabs/epicgames-freegames-node
 - https://github.com/vogler/free-games-claimer
 - https://about.gitea.com/

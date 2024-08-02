@@ -1,0 +1,37 @@
+# https://pi-hole.net/
+
+# blocks ads and trackers across your entire network
+
+# should not be run at the same time as adguard!
+
+name: pihole
+
+services:
+  pihole:
+    container_name: pihole
+    image: docker.io/pihole/pihole:2024.07.0
+    ports:
+      - 53:53/tcp
+      - 53:53/udp
+      - 67:67/udp
+      - 9002:80/tcp
+      #- 443:443/tcp
+    environment:
+      - TZ=Europe/Vienna
+      - WEBPASSWORD=your-secret-password
+    volumes:
+      - dnsmasq:/etc/dnsmasq.d
+      - etcd:/etc/pihole
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+
+volumes:
+  dnsmasq:
+    driver: local
+  etcd:
+    driver: local
+  

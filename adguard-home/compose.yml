@@ -1,5 +1,7 @@
 # https://hub.docker.com/r/adguard/adguardhome
 # Network-wide ads & trackers blocking DNS server
+
+# should not be run at the same time as pihole
 name: adguard-home
 services:
     adguardhome:
