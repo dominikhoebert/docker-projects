@@ -77,7 +77,7 @@ docker network create --driver bridge proxy
 - jupytherlab 8888
 - vaultwarden 8093
 - cyberchef 8094
-- https://it-tools.tech/
+- https://it-tools.tech/ 8095
 - https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose
   - cadvisor
   - heimdall

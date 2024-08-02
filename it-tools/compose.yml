@@ -1,0 +1,20 @@
+# https://github.com/CorentinTh/it-tools
+# https://it-tools.tech/
+
+# Useful tools for developer and people working in IT
+
+name: it-tools
+
+services:
+  it-tools:
+    container_name: it-tools
+    image: corentinth/it-tools:latest
+    ports:
+      - 8095:80
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
