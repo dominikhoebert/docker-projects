@@ -76,7 +76,7 @@ docker network create --driver bridge proxy
 - tinyfilemanager 8091
 - jupytherlab 8888
 - vaultwarden 8093
-- cyberchef
+- cyberchef 8094
 - https://it-tools.tech/
 - https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose
   - cadvisor
