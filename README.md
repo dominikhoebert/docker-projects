@@ -71,7 +71,7 @@ docker network create --driver bridge proxy
 - pinchflat 8945
 - netalertx 20211 test on windows
 - netdata 19999 test on windows
-- stirlingpdf
+- stirlingpdf 8092
 - redis
 - tinyfilemanager
 - vaultwarden

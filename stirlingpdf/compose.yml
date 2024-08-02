@@ -1,0 +1,27 @@
+# https://stirlingtools.com/
+# https://stirlingpdf.io/
+# Your locally hosted one-stop-shop for all your PDF needs
+
+name: stirlingpdf
+services:
+  stirling-pdf:
+    image: frooodle/s-pdf:latest
+    container_name: stirlingpdf
+    ports:
+      - '8092:8080'
+    volumes:
+      - ./trainingData:/usr/share/tessdata #Required for extra OCR languages
+      - ./configs:/configs
+#      - /location/of/customFiles:/customFiles/
+#      - /location/of/logs:/logs/
+    environment:
+      - DOCKER_ENABLE_SECURITY=false
+      - INSTALL_BOOK_AND_ADVANCED_HTML_OPS=false
+      - LANGS=de_DE
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
