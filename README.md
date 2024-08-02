@@ -81,8 +81,8 @@ docker network create --driver bridge proxy
 - https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose
   - cadvisor 8096
   - heimdall 8097
-  - homer
-  - pihole
+  - homer 8099
+  - pihole 
 - https://github.com/claabs/epicgames-freegames-node
 - https://github.com/vogler/free-games-claimer
 - https://about.gitea.com/

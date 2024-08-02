@@ -1,0 +1,21 @@
+# https://github.com/bastienwirtz/homer
+# https://homer-demo.netlify.app/
+# A dead simple static HOMepage for your servER to keep your services on hand, from a simple yaml configuration file
+
+name: homer
+
+services:
+  homer:
+    image: docker.io/b4bz/homer:v24.05.1
+    container_name: homer
+    ports:
+      - 8099:8080
+    volumes:
+      - ./assets/:/www/assets
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
