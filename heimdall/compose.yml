@@ -1,0 +1,25 @@
+# https://heimdall.site/
+
+# application dashboard
+
+name: heimdall
+
+services:
+  heimdall:
+    image: lscr.io/linuxserver/heimdall:2.6.1
+    container_name: heimdall
+    environment:
+      - PUID=1000
+      - PGID=1000
+    volumes:
+      - ./config:/config
+    ports:
+      - 8097:80
+      #- 443:443
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
