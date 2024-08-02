@@ -1,0 +1,31 @@
+# https://github.com/linuxserver/docker-webtop
+
+# Alpine, Ubuntu, Fedora, and Arch based containers containing full desktop environments in officially supported flavors accessible via any modern web browser
+
+name: webtop
+
+services:
+  webtop:
+    image: lscr.io/linuxserver/webtop:latest
+    container_name: webtop
+    security_opt:
+      - seccomp:unconfined #optional
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Vienna
+      - SUBFOLDER=/ #optional
+      - TITLE=Webtop #optional
+    volumes:
+      - ./data:/config
+      #- /var/run/docker.sock:/var/run/docker.sock #optional
+    ports:
+      - 3008:3000
+      - 3009:3001 # https
+    networks: 
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
