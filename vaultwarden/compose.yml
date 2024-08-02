@@ -1,0 +1,23 @@
+# https://github.com/dani-garcia/vaultwarden
+
+# Alternative implementation of the Bitwarden server API written in Rust and compatible with upstream Bitwarden clients*, perfect for self-hosted deployment where running the official resource-heavy service might not be ideal
+
+name: vaultwarden
+
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    container_name: vaultwarden
+    #environment:
+    #  DOMAIN: "https://vault.example.com"  # Your domain here!
+    volumes:
+      - ./vw-data:/data
+    ports:
+      - 8093:80
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
