@@ -1,0 +1,27 @@
+# https://about.gitea.com/
+
+# Private, Fast, Reliable DevOps Platform 
+
+name: gitea
+
+services:
+  gitea:
+    image: gitea/gitea
+    container_name: gitea
+    environment:
+      - USER_UID=1000
+      - USER_GID=1000
+    volumes:
+      - ./data:/data
+      #- /etc/timezone:/etc/timezone:ro
+      #- /etc/localtime:/etc/localtime:ro
+    ports:
+      - 3004:3000
+      - 222:22
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
