@@ -72,7 +72,7 @@ docker network create --driver bridge proxy
 - netalertx 20211 test on windows
 - netdata 19999 test on windows
 - stirlingpdf 8092
-- redis
+- redis 6379
 - tinyfilemanager
 - vaultwarden
 - cyberchef
@@ -82,6 +82,13 @@ docker network create --driver bridge proxy
   - heimdall
   - homer
   - pihole
+- https://github.com/claabs/epicgames-freegames-node
+- https://github.com/vogler/free-games-claimer
+- https://about.gitea.com/
+- https://www.navidrome.org/
+- https://github.com/linuxserver/docker-webtop
+- https://www.kasmweb.com/
+- https://tailscale.com/
 
 ### Übung
 
