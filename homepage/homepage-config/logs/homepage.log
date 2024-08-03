@@ -1131,3 +1131,2469 @@
     [errors]: [ [Error] ]
   }
 ]
+[2024-08-03T15:36:56.273Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:36:56.276Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:36:59.566Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:36:59.567Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:37:12.688Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:37:12.688Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:37:15.983Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:37:15.984Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:38:11.974Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:38:11.977Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:38:15.293Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:38:15.294Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:38:30.433Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:38:30.434Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:38:33.729Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:38:33.730Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:38:55.347Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:38:55.348Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:38:58.649Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:38:58.649Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:39:14.513Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:39:14.514Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:39:17.814Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:39:17.815Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:46:18.102Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:46:18.104Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:46:21.408Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:46:21.408Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:46:52.868Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:46:52.870Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:46:56.162Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:46:56.162Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:47:10.944Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:47:10.945Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:47:14.239Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:47:14.239Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:47:26.864Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:47:26.865Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:47:30.160Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:47:30.160Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:48:02.727Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:48:02.727Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:48:06.034Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:48:06.034Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:48:20.243Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:48:20.244Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:48:23.546Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:48:23.546Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:48:36.495Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:48:36.496Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:48:39.807Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:48:39.807Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:48:54.494Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:48:54.495Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:48:57.807Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:48:57.807Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:49:15.072Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:49:15.074Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:49:18.395Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:49:18.395Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:49:26.704Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:49:26.704Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:49:30.005Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:49:30.005Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:50:11.241Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:50:11.241Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:50:14.540Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:50:14.540Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:50:56.941Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:50:56.941Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:51:00.255Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:51:00.255Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:51:12.089Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:51:12.089Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:51:12.255Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:51:12.256Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:51:15.381Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:51:15.382Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:51:15.549Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:51:15.549Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:52:08.733Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:52:08.733Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:52:08.902Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:52:08.903Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:52:12.034Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:52:12.035Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:52:12.202Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:52:12.202Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:52:26.650Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:52:26.652Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:52:26.694Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T15:52:26.694Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:52:26.694Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T15:52:29.955Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T15:52:29.956Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:52:29.956Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T15:52:30.003Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:52:30.004Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:52:33.293Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:52:33.293Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:52:36.599Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:52:36.599Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:53:07.619Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:53:07.620Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:07.666Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T15:53:07.666Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:07.667Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T15:53:10.911Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T15:53:10.911Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:10.911Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T15:53:10.971Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:53:10.972Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:14.251Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:53:14.251Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:53:17.564Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:53:17.564Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:53:28.053Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T15:53:28.054Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:28.054Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T15:53:29.890Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:53:29.891Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:31.354Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T15:53:31.354Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:31.354Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T15:53:33.194Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:53:33.194Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:37.184Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:53:37.184Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:53:40.494Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:53:40.494Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:53:57.190Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:53:57.190Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:57.221Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T15:53:57.221Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:53:57.221Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T15:54:00.503Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:54:00.503Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:54:00.534Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:54:00.535Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:54:03.801Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:54:03.802Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:54:08.183Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T15:54:08.183Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:54:08.183Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T15:54:18.954Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:54:18.954Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:54:18.969Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T15:54:18.970Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:54:18.970Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T15:54:22.246Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T15:54:22.247Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:54:22.247Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T15:54:22.277Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:54:22.278Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:54:25.582Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:54:25.582Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:54:28.889Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:54:28.890Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:58:21.172Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:58:21.173Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:58:21.188Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T15:58:21.188Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:58:21.188Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T15:58:24.477Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T15:58:24.477Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:58:24.477Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T15:58:24.503Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T15:58:24.503Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:58:27.829Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:58:27.830Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:58:31.140Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T15:58:31.140Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T15:58:43.358Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T15:58:43.359Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T15:58:43.359Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:00:35.842Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:00:35.843Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:00:35.874Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:00:35.874Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:00:35.874Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:00:39.134Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:00:39.135Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:00:39.135Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:00:39.179Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:00:39.180Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:00:42.435Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:00:42.435Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:00:45.744Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:00:45.745Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:00:52.925Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:00:52.926Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:00:52.930Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:00:52.931Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:00:56.224Z] error: <httpProxy> Error calling http://moodle/...
+[2024-08-03T16:00:56.224Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:00:56.808Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:00:56.808Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:00:59.510Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:00:59.510Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:00:59.511Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:01:00.097Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:01:00.098Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:01:00.098Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:01:02.816Z] error: <httpProxy> Error calling http://moodle/...
+[2024-08-03T16:01:02.816Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:01:03.391Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:01:03.391Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:01:06.165Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:01:06.166Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:01:09.473Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:01:09.474Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:01:20.942Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:01:20.943Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:01:20.943Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:01:24.671Z] error: <httpProxy> Error calling http://moodle/...
+[2024-08-03T16:01:24.672Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:01:24.681Z] error: <httpProxy> Error calling http://moodle/...
+[2024-08-03T16:01:24.682Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:01:28.018Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:01:28.019Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:01:28.034Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:01:28.035Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:01:28.035Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:01:29.901Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:01:29.901Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:01:31.314Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:01:31.314Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:01:31.314Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:01:33.252Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:01:33.253Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:01:36.544Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:01:36.544Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:01:45.858Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:01:45.858Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:01:45.862Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:01:45.863Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:02:28.810Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:02:28.811Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:02:28.818Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:02:28.818Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:02:28.997Z] error: <httpProxy> Error calling http://moodle/...
+[2024-08-03T16:02:28.997Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:02:29.011Z] error: <httpProxy> Error calling http://moodle/...
+[2024-08-03T16:02:29.012Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:02:32.839Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:02:32.840Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:02:32.869Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:02:32.869Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:02:32.869Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:02:36.131Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:02:36.132Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:02:36.132Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:02:36.165Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:02:36.166Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:02:39.486Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:02:39.486Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:02:42.781Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:02:42.781Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:02:52.285Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:02:52.285Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:02:52.289Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:02:52.289Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:02:55.049Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:02:55.050Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:02:55.050Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:02:55.748Z] error: <httpProxy> Error calling http://moodle/...
+[2024-08-03T16:02:55.749Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:02:58.743Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:02:58.744Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:02:59.035Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:02:59.035Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:02:59.036Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:03:02.040Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:03:02.041Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:02.041Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:03:02.316Z] error: <httpProxy> Error calling http://moodle/...
+[2024-08-03T16:03:02.316Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:03:05.341Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:03:05.341Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:05.632Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:03:05.632Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:03:08.933Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:03:08.933Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:03:21.900Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:03:21.900Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:03:21.902Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:03:21.903Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:25.205Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:03:25.205Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:03:25.206Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:03:25.206Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:25.207Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:03:28.511Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:03:28.512Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:28.542Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:03:28.542Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:03:31.856Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:03:31.857Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:03:37.232Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:03:37.234Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:03:37.244Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:03:37.244Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:03:41.365Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:03:41.365Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:41.365Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:03:43.500Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:03:43.500Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:03:43.504Z] error: <httpProxy> Error calling http://kavita:3000/...
+[2024-08-03T16:03:43.504Z] error: <httpProxy> [
+  500,
+  AggregateError
+      at internalConnectMultiple (node:net:1114:18)
+      at afterConnectMultiple (node:net:1601:5) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error] ]
+  }
+]
+[2024-08-03T16:03:46.961Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:03:46.962Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:03:47.578Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:03:47.579Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:50.258Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:03:50.258Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:50.259Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:03:50.856Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:03:50.856Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:50.856Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:03:53.543Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:03:53.543Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:03:54.150Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:03:54.151Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:03:56.885Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:03:56.886Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:04:00.193Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:04:00.193Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:04:12.726Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:04:12.727Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:04:12.727Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:04:14.343Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:04:14.344Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:04:16.018Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:04:16.019Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:04:17.644Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:04:17.645Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:04:17.645Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:04:19.318Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:04:19.319Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:04:19.319Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:04:20.931Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:04:20.932Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:04:22.607Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:04:22.607Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:04:24.474Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:04:24.474Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:04:27.756Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:04:27.756Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:07:58.800Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:07:58.800Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:07:59.455Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:07:59.456Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:08:02.117Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:08:02.118Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:08:02.118Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:08:02.745Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:08:02.745Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:08:02.745Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:08:05.401Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:08:05.401Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:08:06.033Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:08:06.034Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:08:08.771Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:08:08.772Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:08:12.068Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:08:12.068Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:08:55.864Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:08:55.865Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:08:55.962Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:08:55.962Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:08:55.963Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:08:59.150Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:08:59.151Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:08:59.151Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:08:59.257Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:08:59.258Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:09:02.537Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:09:02.537Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:09:05.839Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:09:05.839Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:09:19.982Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:09:19.982Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:09:23.292Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:09:23.293Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:11:52.779Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:11:52.779Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:11:53.480Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:11:53.480Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:11:56.075Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:11:56.076Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:11:56.076Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:11:56.780Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:11:56.780Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:11:56.780Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:11:59.391Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:11:59.391Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:12:00.084Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:12:00.084Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:12:02.734Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:12:02.734Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:12:06.039Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:12:06.039Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:13:27.873Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:13:27.874Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:13:28.650Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:13:28.651Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:13:31.168Z] error: <httpProxy> Error calling http://glances:61208/api/4/cpu...
+[2024-08-03T16:13:31.168Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:13:31.168Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/cpu
+[2024-08-03T16:13:31.958Z] error: <httpProxy> Error calling http://glances:61208/api/4/quicklook...
+[2024-08-03T16:13:31.958Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:13:31.958Z] error: <credentialedProxyHandler> HTTP Error 500 calling http://glances:61208/api/4/quicklook
+[2024-08-03T16:13:34.461Z] error: <httpProxy> Error calling http://moodle:8080/...
+[2024-08-03T16:13:34.462Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND moodle
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'moodle'
+  }
+]
+[2024-08-03T16:13:35.243Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:13:35.243Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:13:37.815Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:13:37.815Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:13:41.112Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:13:41.112Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:18:15.457Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:18:15.458Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:18:15.675Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:18:15.676Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:18:18.770Z] error: <httpProxy> Error calling http://glances:61208/...
+[2024-08-03T16:18:18.770Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND glances
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'glances'
+  }
+]
+[2024-08-03T16:18:18.959Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:18:18.959Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:18:39.780Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:18:39.781Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:18:42.438Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:18:42.439Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:18:43.086Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:18:43.086Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:18:45.743Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:18:45.744Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:19:22.963Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:19:22.963Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:19:26.270Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:19:26.271Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:19:40.255Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:19:40.255Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:19:43.547Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:19:43.547Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:20:56.110Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:20:56.110Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:20:59.424Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:20:59.424Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:21:12.548Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:21:12.549Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:21:15.848Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:21:15.848Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:24:35.352Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:24:35.352Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:24:38.655Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:24:38.655Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:24:52.389Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:24:52.389Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:24:55.686Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:24:55.687Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:25:52.495Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:25:52.495Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:25:55.781Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:25:55.782Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:26:06.141Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:26:06.141Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:26:09.444Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:26:09.445Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:26:22.208Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:26:22.208Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:26:25.498Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:26:25.498Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:27:13.706Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:27:13.707Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:27:17.019Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:27:17.020Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:27:55.864Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:27:55.864Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:27:59.175Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:27:59.175Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:47:47.389Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:47:47.390Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T16:47:50.694Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T16:47:50.695Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]

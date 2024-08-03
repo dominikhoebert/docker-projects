@@ -6,8 +6,8 @@
 
 name: moodle
 services:
-  mariadb-moodle:
-    container_name: mariadb-moodle
+  mariadb_moodle:
+    container_name: mariadb_moodle
     image: docker.io/bitnami/mariadb:11.4
     environment:
       # ALLOW_EMPTY_PASSWORD is recommended only for development.
@@ -27,7 +27,7 @@ services:
       - '8089:8080'
       #- '443:8443'
     environment:
-      - MOODLE_DATABASE_HOST=mariadb-moodle
+      - MOODLE_DATABASE_HOST=mariadb_moodle
       - MOODLE_DATABASE_PORT_NUMBER=3306
       - MOODLE_DATABASE_USER=bn_moodle
       - MOODLE_DATABASE_NAME=bitnami_moodle
@@ -37,7 +37,7 @@ services:
       - 'moodle_data:/bitnami/moodle'
       - 'moodledata_data:/bitnami/moodledata'
     depends_on:
-      - mariadb-moodle
+      - mariadb_moodle
     networks:
       - proxy
 

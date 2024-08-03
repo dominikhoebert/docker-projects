@@ -16,7 +16,7 @@ services:
       HTTPS: "0"
       HTTPS_REDIRECT: "0"
       LANG: "en-US"
-      BASE_URL: "http://localhost:82"
+      BASE_URL: "http://localhost:86"
       DB_TYPE: "sqlite"
       DB_NAME: "webtrees"
       DB_PREFIX: "wt_"

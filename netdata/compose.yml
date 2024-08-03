@@ -2,6 +2,8 @@
 # https://app.netdata.cloud/spaces/netdata-demo/rooms/all-nodes
 # Netdata provides high-fidelity data, real-time visualizations, reliable alerts, anomaly detection for every metric and a monitoring experience that is affordable and works out of the box
 
+# Windows Installation: https://www.netdata.cloud/windows-monitoring/
+
 name: netdata
 services:
   netdata:
@@ -19,7 +21,7 @@ services:
       - netdataconfig:/etc/netdata
       - netdatalib:/var/lib/netdata
       - netdatacache:/var/cache/netdata
-      - /:/host/root:ro,rslave
+      #- /:/host/root:ro,rslave
       - /etc/passwd:/host/etc/passwd:ro
       - /etc/group:/host/etc/group:ro
       - /etc/localtime:/etc/localtime:ro
@@ -33,4 +35,3 @@ volumes:
   netdataconfig:
   netdatalib:
   netdatacache:
-  

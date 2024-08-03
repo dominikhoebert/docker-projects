@@ -3,6 +3,77 @@
 # https://gethomepage.dev/latest/configs/services
 
 - Media:
+    - Epic Games Freegames Node:
+        icon: si-epicgames-#313131
+        href: http://localhost:3003
+        description:  Epic Games free games claimer
+        #siteMonitor: http://epicgames-freegames-node:3000
+        server: my-docker
+        container: epicgames-freegames-node
+    
+    - Free Games Claimer:
+        icon: si-stackhawk-#00CBC6
+        href: http://localhost:6080
+        description: Claims free games periodically on Epic Games Store Amazon Prime Gaming GOG Unreal Engine (Assets)
+        siteMonitor: http://free-games-claimer:6080
+        server: my-docker
+        container: free-games-claimer
+
+    - Heimdall:
+        icon: heimdall.png
+        href: http://localhost:8097
+        description:  dashboard for all your web applications
+        siteMonitor: http://heimdall:80
+        server: my-docker
+        container: heimdall
+
+    - Homer:
+        icon: homer.png
+        href: http://localhost:8099
+        description:  dashboard for all your web applications
+        siteMonitor: http://homer:8080
+        server: my-docker
+        container: homer
+
+    - Kavita:
+        icon: kavita.png
+        href: http://localhost:5003
+        description: rocket fueled self-hosted digital library
+        siteMonitor: http://kavita:5000
+        server: my-docker
+        container: kavita
+        # widget:
+        #     type: kavita
+        #     url: 
+        #     username:
+        #     password:
+
+    - Navidrome:
+        icon: navidrome.png
+        href: http://localhost:4533
+        description:  web-based music collection server and streamer
+        siteMonitor: http://navidrome:4533
+        server: my-docker
+        container: navidrome
+        # widget:
+        #     type: navidrome
+        #     url: http://navidrome.host.or.ip:port
+        #     user: username
+        #     token: token #md5(password + salt)
+        #     salt: randomsalt
+
+    - Nextcloud:
+        icon: nextcloud.png
+        href: http://localhost:8080
+        description:  self-hosted cloud storage and collaboration software that offers file access, talk, groupware and office integration
+        siteMonitor: http://nextcloud:80
+        server: my-docker
+        container: nextcloud
+        # widget:
+        #     type: nextcloud
+        #     url: 
+        #     username: 
+        #     password: 
     - Plex:
         icon: plex.png
         href: http://localhost:32400
@@ -49,6 +120,18 @@
         server: my-docker
         container: dawarich
 
+    - Gitea:
+        icon: gitea.png
+        href: http://localhost:3004
+        description:  self-hosted Git service
+        siteMonitor: http://gitea:3000
+        server: my-docker
+        container: gitea
+        # widget:
+        #     type: gitea
+        #     url: 
+        #     key:
+
     - Gramps-Web:
         icon: mdi-family-tree
         href: http://localhost:81
@@ -85,19 +168,33 @@
         #         - state: weather.forecast_home
         #           label: wind speed
         #           value: "{attributes.wind_speed} {attributes.wind_speed_unit}"
-        
-    - Nextcloud:
-        icon: nextcloud.png
-        href: http://localhost:8080
-        description:  self-hosted cloud storage and collaboration software that offers file access, talk, groupware and office integration
-        siteMonitor: http://nextcloud:80
+    
+    - Mealie:
+        icon: mealie.png
+        href: http://localhost:9925
+        description: self-hosted recipe manager and meal planner
+        siteMonitor: http://mealie:9000
         server: my-docker
-        container: nextcloud
+        container: mealie
         # widget:
-        #     type: nextcloud
-        #     url: 
-        #     username: 
-        #     password: 
+        #     type: mealie
+        #     url: http://mealie-frontend.host.or.ip
+        #     key: mealieapitoken
+    - Moodle:
+        icon: moodle.png
+        href: http://localhost:8089
+        description: open-source learning platform designed to provide educators, administrators, and learners with a single robust, secure, and integrated system to create personalized learning environments
+        siteMonitor: http://moodle:8080
+        server: my-docker
+        container: moodle
+
+    - Vaultwarden:
+        icon: vaultwarden.png
+        href: http://localhost:8093
+        description: unofficial Bitwarden compatible server written in Rust
+        siteMonitor: http://vaultwarden:80
+        server: my-docker
+        container: vaultwarden
 
     - Webtrees:
         icon: webtrees.png
@@ -108,6 +205,15 @@
         container: webtrees
 
 - Tools:
+
+    - CyberChef:
+        icon: cyberchef.png
+        href: http://localhost:8094
+        description: web app for analyzing and decoding data
+        siteMonitor: http://cyberchef:80
+        server: my-docker
+        container: cyberchef
+
     - JDownloader:
         icon: jdownloader.png
         href: http://localhost:5800/
@@ -119,15 +225,36 @@
         #     type: jdownloader
         #     username: ""
         #     password: ""
-        #     client: 
+        #     client:
 
-    - MySpeed:
-        icon: mdi-speedometer-#232835
-        href: http://localhost:5216
-        description:  internet speed test
-        siteMonitor: http://myspeed:5216
+    - Jupyter:
+        icon: jupyter.png
+        href: http://localhost:8888
+        description:  open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text
+        siteMonitor: http://jupyter:8888
         server: my-docker
-        container: myspeed
+        container: jupyter
+
+    - IT-Tools:
+        icon: it-tools.png
+        href: http://localhost:8095
+        description: collection of IT tools
+        siteMonitor: http://it-tools:80
+        server: my-docker
+        container: it-tools
+
+    - MeTube:
+        icon: metube.png
+        href: http://localhost:8088
+        description: Web GUI for youtube-dl (using the yt-dlp fork) with playlist support
+        siteMonitor: http://metube:8081
+        server: my-docker
+        container: metube
+        # widget:
+        #     type: metube
+        #     url: 
+        #     username: 
+        #     password:
     
     - OliveTin:
         icon: olivetin.png
@@ -137,32 +264,36 @@
         server: my-docker
         container: olivetin
 
-    - Uptime Kuma:
-        icon: uptime-kuma.png
-        href: http://localhost:3001
-        description:  easy-to-use self-hosted monitoring tool
-        siteMonitor: http://uptime-kuma:3001
+    - Pinchflat:
+        icon: pinchflat.png
+        href: http://localhost:8945
+        description: app for downloading YouTube content built using yt-dlp
+        siteMonitor: http://pinchflat:8945
         server: my-docker
-        container: uptime-kuma
-        # widget:
-        #     type: uptimekuma
-        #     url: 
-        #     slug:     
+        container: pinchflat
 
-    - Whoami:
-        icon: mdi-hat-fedora-#000000
-        href: http://localhost:84
-        description:  simple HTTP server that shows its hostname and IP address
-        siteMonitor: http://whoami:80
+    - StirlingPDF:
+        icon: stirling-pdf.png
+        href: http://localhost:8092
+        description: self-hosted PDF tools
+        siteMonitor: http://stirlingpdf:8080
         server: my-docker
-        container: whoami
+        container: stirlingpdf
+
+    - Webtop:
+        icon: webtop.png
+        href: http://localhost:3008
+        description: web-based desktop environment
+        siteMonitor: http://webtop:3000
+        server: my-docker
+        container: webtop
+
+
 
 - Databases:    
     - CockroachDB:
         icon: si-cockroachlabs
-        #href: http://localhost:26257
         description:  Port 26257 distributed SQL database built on a transactional and strongly-consistent key-value store
-        #siteMonitor: http://cockroachdb:26257
         server: my-docker
         container: cockroachdb
     - CouchDB Obsidian LiveSync:
@@ -174,39 +305,34 @@
         container: obsidian-livesync
     - Firebird:
         icon: si-thunderbird-#0A84FF
-        #href: http://localhost:3050
         description:  Port 3050 relational database offering many ANSI SQL standard features that runs on Linux, Windows, and a variety of Unix platforms
-        #siteMonitor: http://firebird:3050
         server: my-docker
         container: firebird
     - LibSQL:
         icon: si-ardour-#C61C3E
-        #href: http://localhost:5001
         description:  Port 5001 SQL Server database that runs on Windows and Linux
-        #siteMonitor: http://libsql:5001
         server: my-docker
         container: libsql
     - MariaDB:
         icon: mariadb.png
-        #href: http://localhost:3306
         description:  Port 3306 relational database management system that runs on Linux, Windows, and a variety of Unix platforms
-        #siteMonitor: http://mariadb:3306
         server: my-docker
         container: mariadb
     - MySQL 8:
         icon: si-mysql-#4479A1
-        #href: http://localhost:3308
         description:  Port 3308 relational database management system that runs on Linux, Windows, and a variety of Unix platforms
-        #siteMonitor: http://mysql8:3308
         server: my-docker
         container: mysql8
     - PostgreSQL 15:
         icon: si-postgresql-#336791
-        #href: http://localhost:5432
         description:  Port 5432 object-relational database system that runs on Linux, Windows, and a variety of Unix platforms
-        #siteMonitor: http://postgres:5432
         server: my-docker
         container: postgres15
+    - Redis:
+        icon: redis.png
+        description:  Port 6379 in-memory data structure store, used as a database, cache, and message broker
+        server: my-docker
+        container: redis
 
 - Database Clients:
     - Adminer:
@@ -263,6 +389,7 @@
         description:  lightweight Linux distribution "docker exec -it alpine /bin/sh"
         server: my-docker
         container: alpine
+
     - Authentik:
         icon: authentik.png
         href: http://localhost:9001
@@ -274,6 +401,7 @@
         #     type: authentik
         #     url: 
         #     key: 
+
     - CloudCMD:
         icon: cloudcmd.png
         href: http://localhost:8000
@@ -281,6 +409,22 @@
         siteMonitor: http://cloudcmd:8000
         server: my-docker
         container: cloudcmd
+
+    - Glances:
+        icon: glances.png
+        href: http://localhost:61208
+        description:  cross-platform monitoring tool that aims to present a large amount of monitoring information through a curses or Web-based interface
+        siteMonitor: http://host.docker.internal:61208
+        server: my-docker
+        container: glances
+        widget:
+            type: glances
+            url: http://host.docker.internal:61208
+            version: 4 # required only if running glances v4 or higher, defaults to 3
+            metric: cpu
+            diskUnits: bytes # optional, bytes (default) or bbytes. Only applies to disk
+            pointsLimit: 15 # optional, defaults to 15
+
     - Grafana-Loki:
         icon: grafana.png
         href: http://localhost:3000
@@ -294,6 +438,24 @@
         #     username:
         #     password:
 
+    - Netdata:
+        icon: netdata.png
+        href: http://localhost:19999
+        description:  real-time performance monitoring, done right
+        siteMonitor: http://host.docker.internal:19999
+        server: my-docker
+        container: netdata
+        widget:
+            type: netdata
+            url: http://host.docker.internal:19999
+
+    - Tiny File Manager:
+        icon: si-files-#4285F4
+        href: http://localhost:8091
+        description:  web-based file manager that allows you to create, edit, copy, move, download and compress files easily and quickly
+        siteMonitor: http://tinyfilemanager:80
+        server: my-docker
+
     - VS Code:
         icon: code.png
         href: http://localhost:8443
@@ -303,6 +465,15 @@
         container: code-server
 
 - Docker Management:
+
+    - cAdvisor:
+        icon: cadvisor.png
+        href: http://localhost:8096
+        description:  provides container users an understanding of the resource usage and performance characteristics of their running containers
+        siteMonitor: http://cadvisor:8080
+        server: my-docker
+        container: cadvisor
+
     - Dockge:
         icon: dockge.png
         href: http://localhost:5002
@@ -352,6 +523,29 @@
         #     user:
         #     password:
 
+    - MySpeed:
+        icon: mdi-speedometer-#232835
+        href: http://localhost:5216
+        description:  internet speed test
+        siteMonitor: http://myspeed:5216
+        server: my-docker
+        container: myspeed
+        widget:
+            type: myspeed
+            url: http://myspeed:5216
+            #password: password # only required if password is set
+
+    - NetAlertX:
+        icon: netalertx.png
+        href: http://localhost:20211
+        description: network monitoring tool
+        siteMonitor: http://host.docker.internal:20211
+        server: my-docker
+        container: netalertx
+        widget:
+            type: netalertx
+            url: http://host.docker.internal:20211
+
     - nginx:
         icon: nginx.png
         href: http://localhost:82
@@ -359,6 +553,19 @@
         siteMonitor: http://nginx:80
         server: my-docker
         container: nginx
+
+    - Pi-hole:
+        icon: pi-hole.png
+        href: http://localhost:9002/admin
+        description: network-wide ad blocking
+        siteMonitor: http://pihole:80
+        server: my-docker
+        container: pihole
+        # widget:
+        #     type: pihole
+        #     url: http://pi.hole.or.ip
+        #     version: 6 # required if running v6 or higher, defaults to 5
+        #     key: yourpiholeapikey # optional
 
     - Traefik:
         icon: traefik.png
@@ -370,3 +577,23 @@
         widget:
             type: traefik
             url: http://traefik:8080
+
+    - Uptime Kuma:
+        icon: uptime-kuma.png
+        href: http://localhost:3001
+        description:  easy-to-use self-hosted monitoring tool
+        siteMonitor: http://uptime-kuma:3001
+        server: my-docker
+        container: uptime-kuma
+        # widget:
+        #     type: uptimekuma
+        #     url: 
+        #     slug:     
+
+    - Whoami:
+        icon: mdi-hat-fedora-#000000
+        href: http://localhost:84
+        description:  simple HTTP server that shows its hostname and IP address
+        siteMonitor: http://whoami:80
+        server: my-docker
+        container: whoami

@@ -7,6 +7,9 @@ Run first:
 docker network create --driver bridge proxy
 ```
 
+### For container using host networking:
+The host networking driver only works on Linux hosts, but is availabe as a beta feature on Docker Desktop version 4.29 and later for Mac, Windows, and Linux. To enable this feature, navigate to the Features in development tab in Settings, and then select Enable host networking.
+
 ## Services
 
 | Service                                                                        | Port                                                                 |
@@ -85,30 +88,9 @@ docker network create --driver bridge proxy
 
 ### Add to Homepage
 
-- glances 61208 test on windows
-- moodle 8089
-- kavita 5003
-- mealie 9925
-- metube 8088
-- pinchflat 8945
-- netalertx 20211 test on windows
-- netdata 19999 test on windows
-- stirlingpdf 8092
-- redis 6379
-- tinyfilemanager 8091
-- jupytherlab 8888
-- vaultwarden 8093
-- cyberchef 8094
-- https://it-tools.tech/ 8095
-- cadvisor 8096
-- heimdall 8097
-- homer 8099
-- pihole 9002 test on windows
-- https://github.com/claabs/epicgames-freegames-node 3003
-- https://github.com/vogler/free-games-claimer 6080
-- https://about.gitea.com/ 3004 
-- https://www.navidrome.org/ 4533
-- https://github.com/linuxserver/docker-webtop 3008
+- immich
+- esphome
+- organizr
 
 ### Übung
 
@@ -123,7 +105,3 @@ docker network create --driver bridge proxy
 - [Composerize](https://www.composerize.com/)
 - [Kasmweb](https://www.kasmweb.com/)
 - [ChristianLempa/boilerplates](https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose)
-
-## Issues
-
-Web UI of container running in host networking mode on macOS do not seem to be reachable.

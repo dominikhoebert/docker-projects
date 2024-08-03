@@ -34,4 +34,3 @@ volumes:
     driver: local
   etcd:
     driver: local
-  

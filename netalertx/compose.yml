@@ -8,15 +8,14 @@ services:
     container_name: netalertx
     # use the below line if you want to test the latest dev image
     # image: "jokobsk/netalertx-dev:latest" 
-    image: "jokobsk/netalertx:latest"      
-    network_mode: "host"        
+    image: "jokobsk/netalertx:latest"
+    network_mode: "host"
     restart: unless-stopped
     volumes:
       - ./config:/app/config
-      - ./db:/app/db      
+      - ./db:/app/db
       # (optional) useful for debugging if you have issues setting up the container
       - ./logs:/app/front/log
     environment:
-      - TZ=Europe/Vienna      
+      - TZ=Europe/Vienna
       #- PORT=20211
-  
