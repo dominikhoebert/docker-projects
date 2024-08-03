@@ -74,18 +74,14 @@
         #     token: token #md5(password + salt)
         #     salt: randomsalt
 
-    - Nextcloud:
-        icon: nextcloud.png
-        href: http://localhost:8080
-        description:  self-hosted cloud storage and collaboration software that offers file access, talk, groupware and office integration
-        siteMonitor: http://nextcloud:80
+    - Organizr:
+        icon: organizr.png
+        href: http://localhost:8777
+        description:  HTPC/Homelab Services Organizer
+        siteMonitor: http://organizr:80
         server: my-docker
-        container: nextcloud
-        # widget:
-        #     type: nextcloud
-        #     url: 
-        #     username: 
-        #     password: 
+        container: organizr
+
     - Plex:
         icon: plex.png
         href: http://localhost:32400
@@ -278,6 +274,19 @@
         #     url: 
         #     username: 
         #     password:
+
+    - Nextcloud:
+        icon: nextcloud.png
+        href: http://localhost:8080
+        description:  self-hosted cloud storage and collaboration software that offers file access, talk, groupware and office integration
+        siteMonitor: http://nextcloud:80
+        server: my-docker
+        container: nextcloud
+        # widget:
+        #     type: nextcloud
+        #     url: 
+        #     username: 
+        #     password: 
     
     - OliveTin:
         icon: olivetin.png

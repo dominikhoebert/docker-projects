@@ -7,7 +7,7 @@ Run first:
 docker network create --driver bridge proxy
 ```
 
-### For container using host networking:
+#### For container using host networking:
 The host networking driver only works on Linux hosts, but is availabe as a beta feature on Docker Desktop version 4.29 and later for Mac, Windows, and Linux. To enable this feature, navigate to the Features in development tab in Settings, and then select Enable host networking.
 
 ## Services
@@ -60,6 +60,7 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 | [nginx](https://hub.docker.com/_/nginx)                                        | [82](http://localhost:82)                                            |
 | [Obsidian-LiveSync](https://github.com/vrtmrz/obsidian-livesync)               | [5984](http://localhost:5984/_utils/)                                |
 | [Olivetin](https://github.com/OliveTin/OliveTin)                               | [1337](http://localhost:1337)                                        |
+| [Organizr](https://docs.organizr.app/) | [8777](http://localhost:8777) |
 | [PHPmyAdmin](https://hub.docker.com/_/phpmyadmin)                              | [8083](http://localhost:8083)                                        |
 | [PiHole](https://pi-hole.net/)                                                 | [9002](http://localhost:9002)                                        |
 | [Pinchflat](https://github.com/kieraneglin/pinchflat)                          | [8945](http://localhost:8945)                                        |
@@ -85,13 +86,6 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 
 ![homepage1](homepage1.jpg)
 ![homepage2](homepage2.jpg)
-
-## ToDo
-
-### Add to Homepage
-
-- esphome
-- organizr
 
 ## Tools
 

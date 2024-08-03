@@ -1,0 +1,26 @@
+# https://docs.organizr.app/
+# https://demo.organizr.app/#Organizr
+#
+
+name: organizr
+
+services:
+  organizr:
+    container_name: organizr
+    hostname: organizr
+    image: organizr/organizr:latest
+    restart: unless-stopped
+    ports:
+      - 8777:80
+    volumes:
+      - ./config:/config
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Vienna
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
