@@ -39,6 +39,7 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 | [Home Assistant](https://www.home-assistant.io/)                               | [8123](http://localhost:8123)                                        |
 | [Homepage](https://gethomepage.dev)                                            | [3045](http://localhost:3045)                                        |
 | [Homer](https://github.com/bastienwirtz/homer)                                 | [8099](http://localhost:8099)                                        |
+| [Immich](https://immich.app/) | [2283](http://localhost:2283) |
 | [InfluxDB](https://www.influxdata.com/)                                        | [8086](http://localhost:8086)                                        |
 | [IT-Tools](https://it-tools.tech/)                                             | [8095](http://localhost:8095)                                        |
 | [JDownloader2](https://jdownloader.org/jdownloader2)                           | [5800](http://localhost:5800)                                        |
@@ -88,17 +89,8 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 
 ### Add to Homepage
 
-- immich
 - esphome
 - organizr
-
-### Übung
-
-- Adguard
-  - localhost DNS Server möglich?
-- Nginx Proxy Manager
-- beliebige App
-- gemeinsames poxy Docker Netzwerk
 
 ## Tools
 
