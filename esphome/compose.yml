@@ -1,0 +1,27 @@
+# https://esphome.io/
+
+# system to control your microcontrollers by simple yet powerful configuration files and control them remotely through Home Automation systems
+
+name: esphome
+
+services:
+  esphome:
+    container_name: esphome
+    image: ghcr.io/esphome/esphome
+    volumes:
+      - ./config:/config
+      - /etc/localtime:/etc/localtime:ro
+    restart: unless-stopped
+    privileged: true
+    ports:
+      - 6052:6052
+    environment:
+      - USERNAME=test
+      - PASSWORD=ChangeMe
+      - ESPHOME_DASHBOARD_USE_PING=true
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

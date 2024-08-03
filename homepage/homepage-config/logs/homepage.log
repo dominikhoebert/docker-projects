@@ -10097,3 +10097,443 @@ Data: {"type":"Buffer","data":[60,33,68,79,67,84,89,80,69,32,104,116,109,108,62,
     hostname: 'adguard-home'
   }
 ]
+[2024-08-03T19:26:36.322Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:26:36.323Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:26:38.190Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:26:38.190Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:26:39.167Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:26:39.167Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:26:42.474Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:26:42.474Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:38:04.399Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:38:04.399Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:38:06.265Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:38:06.265Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:38:07.527Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:38:07.528Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:38:10.843Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:38:10.843Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:38:32.259Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:38:32.260Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:38:34.133Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:38:34.133Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:38:36.213Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:38:36.214Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:38:39.513Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:38:39.513Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:40:26.673Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:40:26.673Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:40:28.543Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:40:28.543Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:40:31.358Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:40:31.358Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:40:34.673Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:40:34.673Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:40:56.648Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:40:56.651Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:40:58.563Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:40:58.567Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:41:00.473Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:41:00.474Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:41:03.772Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:41:03.772Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:41:24.956Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:41:24.956Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:41:26.821Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:41:26.822Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:41:28.954Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:41:28.954Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:41:32.258Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:41:32.258Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:41:35.847Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:41:35.848Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:41:37.725Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:41:37.725Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:41:39.804Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:41:39.805Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:41:43.117Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:41:43.117Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:42:02.401Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:42:02.401Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:42:04.270Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:42:04.270Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:42:06.466Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:42:06.466Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:42:09.768Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:42:09.769Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:42:24.180Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:42:24.181Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:42:26.056Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:42:26.056Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:42:28.042Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:42:28.042Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:42:31.355Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:42:31.356Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:42:46.354Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:42:46.354Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:42:48.234Z] error: <httpProxy> Error calling http://free-games-claimer:6080/...
+[2024-08-03T19:42:48.235Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND free-games-claimer
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'free-games-claimer'
+  }
+]
+[2024-08-03T19:42:49.745Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:42:49.746Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]
+[2024-08-03T19:42:53.056Z] error: <httpProxy> Error calling http://adguard-home:3000/...
+[2024-08-03T19:42:53.056Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo ENOTFOUND adguard-home
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'adguard-home'
+  }
+]

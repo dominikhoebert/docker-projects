@@ -132,6 +132,17 @@
         server: my-docker
         container: dawarich
 
+    - ESPHome:
+        icon: esphome.png
+        href: http://localhost:6052
+        description:  system to control your microcontrollers by simple yet powerful configuration files and control them remotely through Home Automation systems
+        siteMonitor: http://esphome:6052
+        server: my-docker
+        container: esphome
+        # widget:
+        #     type: esphome
+        #     url: http://esphome:6052
+
     - Gitea:
         icon: gitea.png
         href: http://localhost:3004
