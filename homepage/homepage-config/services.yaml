@@ -74,6 +74,18 @@
         #     token: token #md5(password + salt)
         #     salt: randomsalt
 
+    - Audiobookshelf:
+        icon: audiobookshelf.svg
+        href: http://localhost:8065
+        description: Audiobook and podcast player
+        siteMonitor: http://audiobookshelf:8065
+        server: my-docker
+        container: audiobookshelf
+        # widget:
+        #     type: audiobookshelf
+        #     url:
+        #     key:
+
     - Organizr:
         icon: organizr.png
         href: http://localhost:8777
@@ -93,7 +105,7 @@
         #     type: plex
         #     url: 
         #     key: 
-    
+
     - Radarr:
         icon: radarr.png
         href: http://localhost:7878
