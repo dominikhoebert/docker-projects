@@ -93,7 +93,19 @@
         #     type: plex
         #     url: 
         #     key: 
-    
+
+    - Audiobookshelf:
+        icon: audiobookshelf.svg
+        href: http://localhost:8065
+        description: Audiobook and podcast player
+        siteMonitor: http://audiobookshelf:8065
+        server: my-docker
+        container: audiobookshelf
+        # widget:
+        #     type: audiobookshelf
+        #     url:
+        #     key:
+
     - Radarr:
         icon: radarr.png
         href: http://localhost:7878
