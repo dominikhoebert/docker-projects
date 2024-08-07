@@ -2,7 +2,7 @@
 # https://www.audiobookshelf.org/
 
 # Audiobookshelf is a self-hosted audiobook and podcast server.
-
+name: audiobookshelf
 services:
   audiobookshelf:
     container_name: "audiobookshelf"
@@ -11,15 +11,14 @@ services:
       - "8065:80"
     restart: "unless-stopped"
     volumes:
-      - "metadata:/metadata"
-      - "config:/config"
-      - "audiobooks:/audiobooks"
-      - "podcasts:/podcasts"
-      # - "path-to-your-audiobooks:/audiobooks" # Uncomment and replace with your audiobooks path
-      # - "path-to-your-podcasts:/podcasts" # Uncomment and replace with your podcasts path
+      - ./metadata:/metadata
+      - ./config:/config
+      - ./audiobooks:/audiobooks
+      - ./podcasts:/podcasts
+    networks:
+      - proxy
 
-volumes:
-  metadata:
-  config:
-  audiobooks:
-  podcasts:
+networks:
+  proxy:
+    external:
+      true
