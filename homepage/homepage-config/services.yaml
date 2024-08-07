@@ -3,641 +3,637 @@
 # https://gethomepage.dev/latest/configs/services
 
 - Media:
-    - Epic Games Freegames Node:
-        icon: si-epicgames-#313131
-        href: http://localhost:3003
-        description:  Epic Games free games claimer
-        #siteMonitor: http://epicgames-freegames-node:3000
-        server: my-docker
-        container: epicgames-freegames-node
-    
-    - Free Games Claimer:
-        icon: si-stackhawk-#00CBC6
-        href: http://localhost:6080
-        description: Claims free games periodically on Epic Games Store Amazon Prime Gaming GOG Unreal Engine (Assets)
-        siteMonitor: http://free-games-claimer:6080
-        server: my-docker
-        container: free-games-claimer
+      - Audiobookshelf:
+            icon: audiobookshelf.svg
+            href: http://localhost:8065
+            description: Audiobook and podcast player
+            siteMonitor: http://audiobookshelf:8065
+            server: my-docker
+            container: audiobookshelf
+            # widget:
+            #     type: audiobookshelf
+            #     url:
+            #     key:
 
-    - Heimdall:
-        icon: heimdall.png
-        href: http://localhost:8097
-        description:  dashboard for all your web applications
-        siteMonitor: http://heimdall:80
-        server: my-docker
-        container: heimdall
+      - Epic Games Freegames Node:
+            icon: si-epicgames-#313131
+            href: http://localhost:3003
+            description: Epic Games free games claimer
+            #siteMonitor: http://epicgames-freegames-node:3000
+            server: my-docker
+            container: epicgames-freegames-node
 
-    - Homer:
-        icon: homer.png
-        href: http://localhost:8099
-        description:  dashboard for all your web applications
-        siteMonitor: http://homer:8080
-        server: my-docker
-        container: homer
+      - Free Games Claimer:
+            icon: si-stackhawk-#00CBC6
+            href: http://localhost:6080
+            description: Claims free games periodically on Epic Games Store Amazon Prime Gaming GOG Unreal Engine (Assets)
+            siteMonitor: http://free-games-claimer:6080
+            server: my-docker
+            container: free-games-claimer
 
-    - Immich:
-        icon: immich.png
-        href: http://localhost:2283
-        description:  dashboard for all your web applications
-        #siteMonitor: http://immich:3001
-        server: my-docker
-        container: immich_server
-        # widget:
-        #     type: immich
-        #     url: http://immich.host.or.ip
-        #     key: adminapikeyadminapikeyadminapikey
+      - Heimdall:
+            icon: heimdall.png
+            href: http://localhost:8097
+            description: dashboard for all your web applications
+            siteMonitor: http://heimdall:80
+            server: my-docker
+            container: heimdall
 
-    - Kavita:
-        icon: kavita.png
-        href: http://localhost:5003
-        description: rocket fueled self-hosted digital library
-        siteMonitor: http://kavita:5000
-        server: my-docker
-        container: kavita
-        # widget:
-        #     type: kavita
-        #     url: 
-        #     username:
-        #     password:
+      - Homer:
+            icon: homer.png
+            href: http://localhost:8099
+            description: dashboard for all your web applications
+            siteMonitor: http://homer:8080
+            server: my-docker
+            container: homer
 
-    - Navidrome:
-        icon: navidrome.png
-        href: http://localhost:4533
-        description:  web-based music collection server and streamer
-        siteMonitor: http://navidrome:4533
-        server: my-docker
-        container: navidrome
-        # widget:
-        #     type: navidrome
-        #     url: http://navidrome.host.or.ip:port
-        #     user: username
-        #     token: token #md5(password + salt)
-        #     salt: randomsalt
+      - Immich:
+            icon: immich.png
+            href: http://localhost:2283
+            description: dashboard for all your web applications
+            #siteMonitor: http://immich:3001
+            server: my-docker
+            container: immich_server
+            # widget:
+            #     type: immich
+            #     url: http://immich.host.or.ip
+            #     key: adminapikeyadminapikeyadminapikey
 
-    - Audiobookshelf:
-        icon: audiobookshelf.svg
-        href: http://localhost:8065
-        description: Audiobook and podcast player
-        siteMonitor: http://audiobookshelf:8065
-        server: my-docker
-        container: audiobookshelf
-        # widget:
-        #     type: audiobookshelf
-        #     url:
-        #     key:
+      - Kavita:
+            icon: kavita.png
+            href: http://localhost:5003
+            description: rocket fueled self-hosted digital library
+            siteMonitor: http://kavita:5000
+            server: my-docker
+            container: kavita
+            # widget:
+            #     type: kavita
+            #     url:
+            #     username:
+            #     password:
 
-    - Organizr:
-        icon: organizr.png
-        href: http://localhost:8777
-        description:  HTPC/Homelab Services Organizer
-        siteMonitor: http://organizr:80
-        server: my-docker
-        container: organizr
+      - Navidrome:
+            icon: navidrome.png
+            href: http://localhost:4533
+            description: web-based music collection server and streamer
+            siteMonitor: http://navidrome:4533
+            server: my-docker
+            container: navidrome
+            # widget:
+            #     type: navidrome
+            #     url: http://navidrome.host.or.ip:port
+            #     user: username
+            #     token: token #md5(password + salt)
+            #     salt: randomsalt
 
-    - Plex:
-        icon: plex.png
-        href: http://localhost:32400
-        description: organize, stream, and share your personal media and discover new content from various sources
-        siteMonitor: http://plex:32400
-        server: my-docker
-        container: plex
-        # widget:
-        #     type: plex
-        #     url: 
-        #     key: 
+      - Organizr:
+            icon: organizr.png
+            href: http://localhost:8777
+            description: HTPC/Homelab Services Organizer
+            siteMonitor: http://organizr:80
+            server: my-docker
+            container: organizr
 
-    - Radarr:
-        icon: radarr.png
-        href: http://localhost:7878
-        description: download movies from various sources and formats
-        siteMonitor: http://radarr:7878
-        server: my-docker
-        container: radarr
-        # widget:
-        #     type: radarr
-        #     url: 
-        #     key: 
-        #     enableQueue: true
+      - Plex:
+            icon: plex.png
+            href: http://localhost:32400
+            description: organize, stream, and share your personal media and discover new content from various sources
+            siteMonitor: http://plex:32400
+            server: my-docker
+            container: plex
+            # widget:
+            #     type: plex
+            #     url:
+            #     key:
 
-    - Transmission:
-        icon: transmission.png
-        href: http://localhost:9091
-        description:  cross-platform BitTorrent client that integrates with your operating system and behaves like a Mac program
-        siteMonitor: http://transmission:9091
-        server: my-docker
-        container: transmission
-        widget:
-            type: transmission
-            url: http://transmission:9091
-            rpcUrl: /transmission/ # Optional. Matches the value of "rpc-url" in your Transmission's settings.json file
+      - Radarr:
+            icon: radarr.png
+            href: http://localhost:7878
+            description: download movies from various sources and formats
+            siteMonitor: http://radarr:7878
+            server: my-docker
+            container: radarr
+            # widget:
+            #     type: radarr
+            #     url:
+            #     key:
+            #     enableQueue: true
+
+      - Transmission:
+            icon: transmission.png
+            href: http://localhost:9091
+            description: cross-platform BitTorrent client that integrates with your operating system and behaves like a Mac program
+            siteMonitor: http://transmission:9091
+            server: my-docker
+            container: transmission
+            widget:
+                type: transmission
+                url: http://transmission:9091
+                rpcUrl: /transmission/ # Optional. Matches the value of "rpc-url" in your Transmission's settings.json file
 
 - Services:
-    - Dawarich:
-        icon: si-mapbox-#000000
-        href: http://localhost:3007
-        description: import your location history from Google Maps Timeline and Owntracks, view it on a map and see some statistics, such as the number of countries and cities visited, and distance traveled
-        siteMonitor: http://dawarich:3000
-        server: my-docker
-        container: dawarich
+      - Dawarich:
+            icon: si-mapbox-#000000
+            href: http://localhost:3007
+            description: import your location history from Google Maps Timeline and Owntracks, view it on a map and see some statistics, such as the number of countries and cities visited, and distance traveled
+            siteMonitor: http://dawarich:3000
+            server: my-docker
+            container: dawarich
 
-    - ESPHome:
-        icon: esphome.png
-        href: http://localhost:6052
-        description:  system to control your microcontrollers by simple yet powerful configuration files and control them remotely through Home Automation systems
-        siteMonitor: http://esphome:6052
-        server: my-docker
-        container: esphome
-        # widget:
-        #     type: esphome
-        #     url: http://esphome:6052
+      - ESPHome:
+            icon: esphome.png
+            href: http://localhost:6052
+            description: system to control your microcontrollers by simple yet powerful configuration files and control them remotely through Home Automation systems
+            siteMonitor: http://esphome:6052
+            server: my-docker
+            container: esphome
+            # widget:
+            #     type: esphome
+            #     url: http://esphome:6052
 
-    - Gitea:
-        icon: gitea.png
-        href: http://localhost:3004
-        description:  self-hosted Git service
-        siteMonitor: http://gitea:3000
-        server: my-docker
-        container: gitea
-        # widget:
-        #     type: gitea
-        #     url: 
-        #     key:
+      - Gitea:
+            icon: gitea.png
+            href: http://localhost:3004
+            description: self-hosted Git service
+            siteMonitor: http://gitea:3000
+            server: my-docker
+            container: gitea
+            # widget:
+            #     type: gitea
+            #     url:
+            #     key:
 
-    - Gramps-Web:
-        icon: mdi-family-tree
-        href: http://localhost:81
-        description: web app for collaborative genealogy
-        siteMonitor: http://grampsweb:5000
-        server: my-docker
-        container: grampsweb
+      - Gramps-Web:
+            icon: mdi-family-tree
+            href: http://localhost:81
+            description: web app for collaborative genealogy
+            siteMonitor: http://grampsweb:5000
+            server: my-docker
+            container: grampsweb
 
-    - Guacamole:
-        icon: guacamole.png
-        href: http://localhost:80
-        description: client-less remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH over HTML5.
-        #siteMonitor: http://guacamole:8080
-        server: my-docker
-        container: guacamole
+      - Guacamole:
+            icon: guacamole.png
+            href: http://localhost:80
+            description: client-less remote desktop gateway. It supports standard protocols like VNC, RDP, and SSH over HTML5.
+            #siteMonitor: http://guacamole:8080
+            server: my-docker
+            container: guacamole
 
-    - Home Assistant:
-        icon: home-assistant.png
-        href: http://localhost:8123
-        description: versatile and trustworthy smart home hub that integrates with over 1000 brands and runs on various devices
-        siteMonitor: http://homeassistant:8123
-        server: my-docker
-        container: homeassistant
-        # widget:
-        #     type: homeassistant
-        #     url: http://homeassistant:8123
-        #     key: 
-        #     custom:
-        #         - state: sensor.total_power
-        #         - state: sensor.total_energy_today
-        #           label: energy today
-        #         - template: "{{ states.switch|selectattr('state','equalto','on')|list|length }}"
-        #           label: switches on
-        #         - state: weather.forecast_home
-        #           label: wind speed
-        #           value: "{attributes.wind_speed} {attributes.wind_speed_unit}"
-    
-    - Mealie:
-        icon: mealie.png
-        href: http://localhost:9925
-        description: self-hosted recipe manager and meal planner
-        siteMonitor: http://mealie:9000
-        server: my-docker
-        container: mealie
-        # widget:
-        #     type: mealie
-        #     url: http://mealie-frontend.host.or.ip
-        #     key: mealieapitoken
-    - Moodle:
-        icon: moodle.png
-        href: http://localhost:8089
-        description: open-source learning platform designed to provide educators, administrators, and learners with a single robust, secure, and integrated system to create personalized learning environments
-        siteMonitor: http://moodle:8080
-        server: my-docker
-        container: moodle
+      - Home Assistant:
+            icon: home-assistant.png
+            href: http://localhost:8123
+            description: versatile and trustworthy smart home hub that integrates with over 1000 brands and runs on various devices
+            siteMonitor: http://homeassistant:8123
+            server: my-docker
+            container: homeassistant
+            # widget:
+            #     type: homeassistant
+            #     url: http://homeassistant:8123
+            #     key:
+            #     custom:
+            #         - state: sensor.total_power
+            #         - state: sensor.total_energy_today
+            #           label: energy today
+            #         - template: "{{ states.switch|selectattr('state','equalto','on')|list|length }}"
+            #           label: switches on
+            #         - state: weather.forecast_home
+            #           label: wind speed
+            #           value: "{attributes.wind_speed} {attributes.wind_speed_unit}"
 
-    - Vaultwarden:
-        icon: vaultwarden.png
-        href: http://localhost:8093
-        description: unofficial Bitwarden compatible server written in Rust
-        siteMonitor: http://vaultwarden:80
-        server: my-docker
-        container: vaultwarden
+      - Mealie:
+            icon: mealie.png
+            href: http://localhost:9925
+            description: self-hosted recipe manager and meal planner
+            siteMonitor: http://mealie:9000
+            server: my-docker
+            container: mealie
+            # widget:
+            #     type: mealie
+            #     url: http://mealie-frontend.host.or.ip
+            #     key: mealieapitoken
+      - Moodle:
+            icon: moodle.png
+            href: http://localhost:8089
+            description: open-source learning platform designed to provide educators, administrators, and learners with a single robust, secure, and integrated system to create personalized learning environments
+            siteMonitor: http://moodle:8080
+            server: my-docker
+            container: moodle
 
-    - Webtrees:
-        icon: webtrees.png
-        href: http://localhost:86
-        description: web-based genealogy application that works from standard GEDCOM files
-        siteMonitor: http://webtrees:80
-        server: my-docker
-        container: webtrees
+      - Vaultwarden:
+            icon: vaultwarden.png
+            href: http://localhost:8093
+            description: unofficial Bitwarden compatible server written in Rust
+            siteMonitor: http://vaultwarden:80
+            server: my-docker
+            container: vaultwarden
+
+      - Webtrees:
+            icon: webtrees.png
+            href: http://localhost:86
+            description: web-based genealogy application that works from standard GEDCOM files
+            siteMonitor: http://webtrees:80
+            server: my-docker
+            container: webtrees
 
 - Tools:
+      - CyberChef:
+            icon: cyberchef.png
+            href: http://localhost:8094
+            description: web app for analyzing and decoding data
+            siteMonitor: http://cyberchef:80
+            server: my-docker
+            container: cyberchef
 
-    - CyberChef:
-        icon: cyberchef.png
-        href: http://localhost:8094
-        description: web app for analyzing and decoding data
-        siteMonitor: http://cyberchef:80
-        server: my-docker
-        container: cyberchef
+      - JDownloader:
+            icon: jdownloader.png
+            href: http://localhost:5800/
+            description: free, open-source download management tool with a huge community that makes downloading as easy and fast as it should be
+            siteMonitor: http://jdownloader:5800/
+            server: my-docker
+            container: jdownloader
+            # widget:
+            #     type: jdownloader
+            #     username: ""
+            #     password: ""
+            #     client:
 
-    - JDownloader:
-        icon: jdownloader.png
-        href: http://localhost:5800/
-        description:  free, open-source download management tool with a huge community that makes downloading as easy and fast as it should be
-        siteMonitor: http://jdownloader:5800/
-        server: my-docker
-        container: jdownloader
-        # widget:
-        #     type: jdownloader
-        #     username: ""
-        #     password: ""
-        #     client:
+      - Jupyter:
+            icon: jupyter.png
+            href: http://localhost:8888
+            description: open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text
+            siteMonitor: http://jupyter:8888
+            server: my-docker
+            container: jupyter
 
-    - Jupyter:
-        icon: jupyter.png
-        href: http://localhost:8888
-        description:  open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text
-        siteMonitor: http://jupyter:8888
-        server: my-docker
-        container: jupyter
+      - IT-Tools:
+            icon: it-tools.png
+            href: http://localhost:8095
+            description: collection of IT tools
+            siteMonitor: http://it-tools:80
+            server: my-docker
+            container: it-tools
 
-    - IT-Tools:
-        icon: it-tools.png
-        href: http://localhost:8095
-        description: collection of IT tools
-        siteMonitor: http://it-tools:80
-        server: my-docker
-        container: it-tools
+      - MeTube:
+            icon: metube.png
+            href: http://localhost:8088
+            description: Web GUI for youtube-dl (using the yt-dlp fork) with playlist support
+            siteMonitor: http://metube:8081
+            server: my-docker
+            container: metube
+            # widget:
+            #     type: metube
+            #     url:
+            #     username:
+            #     password:
 
-    - MeTube:
-        icon: metube.png
-        href: http://localhost:8088
-        description: Web GUI for youtube-dl (using the yt-dlp fork) with playlist support
-        siteMonitor: http://metube:8081
-        server: my-docker
-        container: metube
-        # widget:
-        #     type: metube
-        #     url: 
-        #     username: 
-        #     password:
+      - Nextcloud:
+            icon: nextcloud.png
+            href: http://localhost:8080
+            description: self-hosted cloud storage and collaboration software that offers file access, talk, groupware and office integration
+            siteMonitor: http://nextcloud:80
+            server: my-docker
+            container: nextcloud
+            # widget:
+            #     type: nextcloud
+            #     url:
+            #     username:
+            #     password:
 
-    - Nextcloud:
-        icon: nextcloud.png
-        href: http://localhost:8080
-        description:  self-hosted cloud storage and collaboration software that offers file access, talk, groupware and office integration
-        siteMonitor: http://nextcloud:80
-        server: my-docker
-        container: nextcloud
-        # widget:
-        #     type: nextcloud
-        #     url: 
-        #     username: 
-        #     password: 
-    
-    - OliveTin:
-        icon: olivetin.png
-        href: http://localhost:1337
-        description: safe and simple access to predefined shell commands from a web interface
-        siteMonitor: http://olivetin:1337
-        server: my-docker
-        container: olivetin
+      - OliveTin:
+            icon: olivetin.png
+            href: http://localhost:1337
+            description: safe and simple access to predefined shell commands from a web interface
+            siteMonitor: http://olivetin:1337
+            server: my-docker
+            container: olivetin
 
-    - Pinchflat:
-        icon: pinchflat.png
-        href: http://localhost:8945
-        description: app for downloading YouTube content built using yt-dlp
-        siteMonitor: http://pinchflat:8945
-        server: my-docker
-        container: pinchflat
+      - Pinchflat:
+            icon: pinchflat.png
+            href: http://localhost:8945
+            description: app for downloading YouTube content built using yt-dlp
+            siteMonitor: http://pinchflat:8945
+            server: my-docker
+            container: pinchflat
 
-    - StirlingPDF:
-        icon: stirling-pdf.png
-        href: http://localhost:8092
-        description: self-hosted PDF tools
-        siteMonitor: http://stirlingpdf:8080
-        server: my-docker
-        container: stirlingpdf
+      - StirlingPDF:
+            icon: stirling-pdf.png
+            href: http://localhost:8092
+            description: self-hosted PDF tools
+            siteMonitor: http://stirlingpdf:8080
+            server: my-docker
+            container: stirlingpdf
 
-    - Webtop:
-        icon: webtop.png
-        href: http://localhost:3008
-        description: web-based desktop environment
-        siteMonitor: http://webtop:3000
-        server: my-docker
-        container: webtop
+      - Webtop:
+            icon: webtop.png
+            href: http://localhost:3008
+            description: web-based desktop environment
+            siteMonitor: http://webtop:3000
+            server: my-docker
+            container: webtop
 
-
-
-- Databases:    
-    - CockroachDB:
-        icon: si-cockroachlabs
-        description:  Port 26257 distributed SQL database built on a transactional and strongly-consistent key-value store
-        server: my-docker
-        container: cockroachdb
-    - CouchDB Obsidian LiveSync:
-        icon: si-obsidian-#7C3AED
-        href: http://localhost:5984/_utils/
-        description:  self-hosted LiveSync is a community-implemented synchronization plugin, available on every obsidian-compatible platform and using CouchDB or Object Storage
-        siteMonitor: http://obsidian-livesync:5984/_utils/
-        server: my-docker
-        container: obsidian-livesync
-    - Firebird:
-        icon: si-thunderbird-#0A84FF
-        description:  Port 3050 relational database offering many ANSI SQL standard features that runs on Linux, Windows, and a variety of Unix platforms
-        server: my-docker
-        container: firebird
-    - LibSQL:
-        icon: si-ardour-#C61C3E
-        description:  Port 5001 SQL Server database that runs on Windows and Linux
-        server: my-docker
-        container: libsql
-    - MariaDB:
-        icon: mariadb.png
-        description:  Port 3306 relational database management system that runs on Linux, Windows, and a variety of Unix platforms
-        server: my-docker
-        container: mariadb
-    - MySQL 8:
-        icon: si-mysql-#4479A1
-        description:  Port 3308 relational database management system that runs on Linux, Windows, and a variety of Unix platforms
-        server: my-docker
-        container: mysql8
-    - PostgreSQL 15:
-        icon: si-postgresql-#336791
-        description:  Port 5432 object-relational database system that runs on Linux, Windows, and a variety of Unix platforms
-        server: my-docker
-        container: postgres15
-    - Redis:
-        icon: redis.png
-        description:  Port 6379 in-memory data structure store, used as a database, cache, and message broker
-        server: my-docker
-        container: redis
+- Databases:
+      - CockroachDB:
+            icon: si-cockroachlabs
+            description: Port 26257 distributed SQL database built on a transactional and strongly-consistent key-value store
+            server: my-docker
+            container: cockroachdb
+      - CouchDB Obsidian LiveSync:
+            icon: si-obsidian-#7C3AED
+            href: http://localhost:5984/_utils/
+            description: self-hosted LiveSync is a community-implemented synchronization plugin, available on every obsidian-compatible platform and using CouchDB or Object Storage
+            siteMonitor: http://obsidian-livesync:5984/_utils/
+            server: my-docker
+            container: obsidian-livesync
+      - Firebird:
+            icon: si-thunderbird-#0A84FF
+            description: Port 3050 relational database offering many ANSI SQL standard features that runs on Linux, Windows, and a variety of Unix platforms
+            server: my-docker
+            container: firebird
+      - LibSQL:
+            icon: si-ardour-#C61C3E
+            description: Port 5001 SQL Server database that runs on Windows and Linux
+            server: my-docker
+            container: libsql
+      - MariaDB:
+            icon: mariadb.png
+            description: Port 3306 relational database management system that runs on Linux, Windows, and a variety of Unix platforms
+            server: my-docker
+            container: mariadb
+      - MySQL 8:
+            icon: si-mysql-#4479A1
+            description: Port 3308 relational database management system that runs on Linux, Windows, and a variety of Unix platforms
+            server: my-docker
+            container: mysql8
+      - PostgreSQL 15:
+            icon: si-postgresql-#336791
+            description: Port 5432 object-relational database system that runs on Linux, Windows, and a variety of Unix platforms
+            server: my-docker
+            container: postgres15
+      - Redis:
+            icon: redis.png
+            description: Port 6379 in-memory data structure store, used as a database, cache, and message broker
+            server: my-docker
+            container: redis
 
 - Database Clients:
-    - Adminer:
-        icon: adminer.png
-        href: http://localhost:8081
-        description: database management in a single PHP file
-        #siteMonitor: http://adminer:8081
-        server: my-docker
-        container: adminer
+      - Adminer:
+            icon: adminer.png
+            href: http://localhost:8081
+            description: database management in a single PHP file
+            #siteMonitor: http://adminer:8081
+            server: my-docker
+            container: adminer
 
-    - DBGate:
-        icon: mdi-database-eye-outline-#2793da
-        href: http://localhost:8084
-        description:  database manager that supports MySQL, PostgreSQL, SQL Server, SQLite, and MongoDB
-        #siteMonitor: http://dbgate:8084
-        server: my-docker
-        container: dbgate
+      - DBGate:
+            icon: mdi-database-eye-outline-#2793da
+            href: http://localhost:8084
+            description: database manager that supports MySQL, PostgreSQL, SQL Server, SQLite, and MongoDB
+            #siteMonitor: http://dbgate:8084
+            server: my-docker
+            container: dbgate
 
-    - InfluxDB:
-        icon: influxdb.png
-        href: http://localhost:8086
-        description: time-series database designed to handle high write and query loads
-        siteMonitor: http://influxdb:8086
-        server: my-docker
-        container: influxdb
+      - InfluxDB:
+            icon: influxdb.png
+            href: http://localhost:8086
+            description: time-series database designed to handle high write and query loads
+            siteMonitor: http://influxdb:8086
+            server: my-docker
+            container: influxdb
 
-    - PHPmyAdmin:
-        icon: phpmyadmin.png
-        href: http://localhost:8083
-        description:  web-based tool for managing MySQL databases
-        #siteMonitor: http://phpmyadmin:8083
-        server: my-docker
-        container: phpmyadmin
+      - PHPmyAdmin:
+            icon: phpmyadmin.png
+            href: http://localhost:8083
+            description: web-based tool for managing MySQL databases
+            #siteMonitor: http://phpmyadmin:8083
+            server: my-docker
+            container: phpmyadmin
 
-    - SQLChat:
-        icon: mdi-robot-excited-#504be2
-        href: http://localhost:3005
-        description:  chat with your database
-        siteMonitor: http://sqlchat:3000
-        server: my-docker
-        container: sqlchat
-    
-    - WhoDB:
-        icon: mdi-database-eye-#36c1b1
-        href: http://localhost:8082
-        description:  web-based database management tool
-        #siteMonitor: http://whodb:8082
-        server: my-docker
-        container: whodb
+      - SQLChat:
+            icon: mdi-robot-excited-#504be2
+            href: http://localhost:3005
+            description: chat with your database
+            siteMonitor: http://sqlchat:3000
+            server: my-docker
+            container: sqlchat
+
+      - WhoDB:
+            icon: mdi-database-eye-#36c1b1
+            href: http://localhost:8082
+            description: web-based database management tool
+            #siteMonitor: http://whodb:8082
+            server: my-docker
+            container: whodb
 
 - Server Management:
-    - Alpine:
-        icon: alpine.png
-        description:  lightweight Linux distribution "docker exec -it alpine /bin/sh"
-        server: my-docker
-        container: alpine
+      - Alpine:
+            icon: alpine.png
+            description: lightweight Linux distribution "docker exec -it alpine /bin/sh"
+            server: my-docker
+            container: alpine
 
-    - Authentik:
-        icon: authentik.png
-        href: http://localhost:9001
-        description:  secure and flexible solution for managing your identity needs
-        siteMonitor: http://server:9000
-        server: my-docker
-        container: authentik-server
-        # widget:
-        #     type: authentik
-        #     url: 
-        #     key: 
+      - Authentik:
+            icon: authentik.png
+            href: http://localhost:9001
+            description: secure and flexible solution for managing your identity needs
+            siteMonitor: http://server:9000
+            server: my-docker
+            container: authentik-server
+            # widget:
+            #     type: authentik
+            #     url:
+            #     key:
 
-    - CloudCMD:
-        icon: cloudcmd.png
-        href: http://localhost:8000
-        description: file manager for the web. It includes a command-line console and a text editor
-        siteMonitor: http://cloudcmd:8000
-        server: my-docker
-        container: cloudcmd
+      - CloudCMD:
+            icon: cloudcmd.png
+            href: http://localhost:8000
+            description: file manager for the web. It includes a command-line console and a text editor
+            siteMonitor: http://cloudcmd:8000
+            server: my-docker
+            container: cloudcmd
 
-    - Glances:
-        icon: glances.png
-        href: http://localhost:61208
-        description:  cross-platform monitoring tool that aims to present a large amount of monitoring information through a curses or Web-based interface
-        siteMonitor: http://host.docker.internal:61208
-        server: my-docker
-        container: glances
-        widget:
-            type: glances
-            url: http://host.docker.internal:61208
-            version: 4 # required only if running glances v4 or higher, defaults to 3
-            metric: cpu
-            diskUnits: bytes # optional, bytes (default) or bbytes. Only applies to disk
-            pointsLimit: 15 # optional, defaults to 15
+      - Glances:
+            icon: glances.png
+            href: http://localhost:61208
+            description: cross-platform monitoring tool that aims to present a large amount of monitoring information through a curses or Web-based interface
+            siteMonitor: http://host.docker.internal:61208
+            server: my-docker
+            container: glances
+            widget:
+                type: glances
+                url: http://host.docker.internal:61208
+                version: 4 # required only if running glances v4 or higher, defaults to 3
+                metric: cpu
+                diskUnits: bytes # optional, bytes (default) or bbytes. Only applies to disk
+                pointsLimit: 15 # optional, defaults to 15
 
-    - Grafana-Loki:
-        icon: grafana.png
-        href: http://localhost:3000
-        description:  open-source logging system that does not index the contents of the logs, but rather a set of labels for each log stream
-        siteMonitor: http://grafana:3000
-        server: my-docker
-        container: grafana
-        # widget:
-        #     type: grafana
-        #     url: 
-        #     username:
-        #     password:
+      - Grafana-Loki:
+            icon: grafana.png
+            href: http://localhost:3000
+            description: open-source logging system that does not index the contents of the logs, but rather a set of labels for each log stream
+            siteMonitor: http://grafana:3000
+            server: my-docker
+            container: grafana
+            # widget:
+            #     type: grafana
+            #     url:
+            #     username:
+            #     password:
 
-    - Netdata:
-        icon: netdata.png
-        href: http://localhost:19999
-        description:  real-time performance monitoring, done right
-        siteMonitor: http://host.docker.internal:19999
-        server: my-docker
-        container: netdata
-        widget:
-            type: netdata
-            url: http://host.docker.internal:19999
+      - Netdata:
+            icon: netdata.png
+            href: http://localhost:19999
+            description: real-time performance monitoring, done right
+            siteMonitor: http://host.docker.internal:19999
+            server: my-docker
+            container: netdata
+            widget:
+                type: netdata
+                url: http://host.docker.internal:19999
 
-    - Tiny File Manager:
-        icon: si-files-#4285F4
-        href: http://localhost:8091
-        description:  web-based file manager that allows you to create, edit, copy, move, download and compress files easily and quickly
-        siteMonitor: http://tinyfilemanager:80
-        server: my-docker
+      - Tiny File Manager:
+            icon: si-files-#4285F4
+            href: http://localhost:8091
+            description: web-based file manager that allows you to create, edit, copy, move, download and compress files easily and quickly
+            siteMonitor: http://tinyfilemanager:80
+            server: my-docker
 
-    - VS Code:
-        icon: code.png
-        href: http://localhost:8443
-        description:  VS Code on any machine and access it in the browser
-        siteMonitor: http://code-server:8443
-        server: my-docker
-        container: code-server
+      - VS Code:
+            icon: code.png
+            href: http://localhost:8443
+            description: VS Code on any machine and access it in the browser
+            siteMonitor: http://code-server:8443
+            server: my-docker
+            container: code-server
 
 - Docker Management:
+      - cAdvisor:
+            icon: cadvisor.png
+            href: http://localhost:8096
+            description: provides container users an understanding of the resource usage and performance characteristics of their running containers
+            siteMonitor: http://cadvisor:8080
+            server: my-docker
+            container: cadvisor
 
-    - cAdvisor:
-        icon: cadvisor.png
-        href: http://localhost:8096
-        description:  provides container users an understanding of the resource usage and performance characteristics of their running containers
-        siteMonitor: http://cadvisor:8080
-        server: my-docker
-        container: cadvisor
+      - Dockge:
+            icon: dockge.png
+            href: http://localhost:5002
+            description: fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
+            siteMonitor: http://dockge:5001
+            server: my-docker
+            container: dockge
 
-    - Dockge:
-        icon: dockge.png
-        href: http://localhost:5002
-        description: fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager
-        siteMonitor: http://dockge:5001
-        server: my-docker
-        container: dockge
+      - Dozzle:
+            icon: dozzle.png
+            href: http://localhost:8087
+            description: web-based application that provides a real-time log viewer for Docker containers
+            siteMonitor: http://dozzle:8080
+            server: my-docker
+            container: dozzle
 
-    - Dozzle:
-        icon: dozzle.png
-        href: http://localhost:8087
-        description: web-based application that provides a real-time log viewer for Docker containers
-        siteMonitor: http://dozzle:8080
-        server: my-docker
-        container: dozzle
+      - Portainer:
+            icon: portainer.png
+            href: http://localhost:9000
+            description: versatile container management software that simplifies your secure adoption of containers
+            siteMonitor: http://portainer:9000
+            server: my-docker
+            container: portainer
+            # widget:
+            #     type: portainer
+            #     url:
+            #     env:
+            #     key:
 
-    - Portainer:
-        icon: portainer.png
-        href: http://localhost:9000
-        description:  versatile container management software that simplifies your secure adoption of containers
-        siteMonitor: http://portainer:9000
-        server: my-docker
-        container: portainer
-        # widget:
-        #     type: portainer
-        #     url: 
-        #     env: 
-        #     key:    
-    
-    - Watchtower:
-        icon: watchtower.png
-        description:  automatically update the running Docker containers
-        server: my-docker
-        container: watchtower
+      - Watchtower:
+            icon: watchtower.png
+            description: automatically update the running Docker containers
+            server: my-docker
+            container: watchtower
 
 - Network:
-    - Adguard Home:
-        icon: adguard-home.png
-        href: http://localhost:3002
-        description: network-wide ads & trackers blocking DNS server
-        siteMonitor: http://adguard-home:3000
-        server: my-docker
-        container: adguard-home
-        # widget:
-        #     type: adguardhome
-        #     url: http://adguard-home:3002
-        #     user:
-        #     password:
+      - Adguard Home:
+            icon: adguard-home.png
+            href: http://localhost:3002
+            description: network-wide ads & trackers blocking DNS server
+            siteMonitor: http://adguard-home:3000
+            server: my-docker
+            container: adguard-home
+            # widget:
+            #     type: adguardhome
+            #     url: http://adguard-home:3002
+            #     user:
+            #     password:
 
-    - MySpeed:
-        icon: mdi-speedometer-#232835
-        href: http://localhost:5216
-        description:  internet speed test
-        siteMonitor: http://myspeed:5216
-        server: my-docker
-        container: myspeed
-        widget:
-            type: myspeed
-            url: http://myspeed:5216
-            #password: password # only required if password is set
+      - MySpeed:
+            icon: mdi-speedometer-#232835
+            href: http://localhost:5216
+            description: internet speed test
+            siteMonitor: http://myspeed:5216
+            server: my-docker
+            container: myspeed
+            widget:
+                type: myspeed
+                url: http://myspeed:5216
+                #password: password # only required if password is set
 
-    - NetAlertX:
-        icon: netalertx.png
-        href: http://localhost:20211
-        description: network monitoring tool
-        siteMonitor: http://host.docker.internal:20211
-        server: my-docker
-        container: netalertx
-        widget:
-            type: netalertx
-            url: http://host.docker.internal:20211
+      - NetAlertX:
+            icon: netalertx.png
+            href: http://localhost:20211
+            description: network monitoring tool
+            siteMonitor: http://host.docker.internal:20211
+            server: my-docker
+            container: netalertx
+            widget:
+                type: netalertx
+                url: http://host.docker.internal:20211
 
-    - nginx:
-        icon: nginx.png
-        href: http://localhost:82
-        description:  web server that can also be used as a reverse proxy, load balancer, mail proxy, and HTTP cache
-        siteMonitor: http://nginx:80
-        server: my-docker
-        container: nginx
+      - nginx:
+            icon: nginx.png
+            href: http://localhost:82
+            description: web server that can also be used as a reverse proxy, load balancer, mail proxy, and HTTP cache
+            siteMonitor: http://nginx:80
+            server: my-docker
+            container: nginx
 
-    - Pi-hole:
-        icon: pi-hole.png
-        href: http://localhost:9002/admin
-        description: network-wide ad blocking
-        siteMonitor: http://pihole:80
-        server: my-docker
-        container: pihole
-        # widget:
-        #     type: pihole
-        #     url: http://pi.hole.or.ip
-        #     version: 6 # required if running v6 or higher, defaults to 5
-        #     key: yourpiholeapikey # optional
+      - Pi-hole:
+            icon: pi-hole.png
+            href: http://localhost:9002/admin
+            description: network-wide ad blocking
+            siteMonitor: http://pihole:80
+            server: my-docker
+            container: pihole
+            # widget:
+            #     type: pihole
+            #     url: http://pi.hole.or.ip
+            #     version: 6 # required if running v6 or higher, defaults to 5
+            #     key: yourpiholeapikey # optional
 
-    - Traefik:
-        icon: traefik.png
-        href: http://localhost:8085
-        description: open-source Edge Router that automatically discovers and routes requests to your services
-        siteMonitor: http://traefik:8080
-        server: my-docker
-        container: traefik
-        widget:
-            type: traefik
-            url: http://traefik:8080
+      - Traefik:
+            icon: traefik.png
+            href: http://localhost:8085
+            description: open-source Edge Router that automatically discovers and routes requests to your services
+            siteMonitor: http://traefik:8080
+            server: my-docker
+            container: traefik
+            widget:
+                type: traefik
+                url: http://traefik:8080
 
-    - Uptime Kuma:
-        icon: uptime-kuma.png
-        href: http://localhost:3001
-        description:  easy-to-use self-hosted monitoring tool
-        siteMonitor: http://uptime-kuma:3001
-        server: my-docker
-        container: uptime-kuma
-        # widget:
-        #     type: uptimekuma
-        #     url: 
-        #     slug:     
+      - Uptime Kuma:
+            icon: uptime-kuma.png
+            href: http://localhost:3001
+            description: easy-to-use self-hosted monitoring tool
+            siteMonitor: http://uptime-kuma:3001
+            server: my-docker
+            container: uptime-kuma
+            # widget:
+            #     type: uptimekuma
+            #     url:
+            #     slug:
 
-    - Whoami:
-        icon: mdi-hat-fedora-#000000
-        href: http://localhost:84
-        description:  simple HTTP server that shows its hostname and IP address
-        siteMonitor: http://whoami:80
-        server: my-docker
-        container: whoami
+      - Whoami:
+            icon: mdi-hat-fedora-#000000
+            href: http://localhost:84
+            description: simple HTTP server that shows its hostname and IP address
+            siteMonitor: http://whoami:80
+            server: my-docker
+            container: whoami
