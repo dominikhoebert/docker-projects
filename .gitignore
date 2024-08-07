@@ -51,3 +51,7 @@ immich/library/
 immich/postgres/
 esphome/config/
 organizr/config/
+audiobookshelf/audiobooks/
+audiobookshelf/config/
+audiobookshelf/metadata/
+audiobookshelf/podcasts/
