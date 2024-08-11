@@ -88,11 +88,23 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 ![homepage1](homepage1.jpg)
 ![homepage2](homepage2.jpg)
 
-## Tools
+## Links
 
 - [Composerize](https://www.composerize.com/)
 - [Kasmweb](https://www.kasmweb.com/)
 - [ChristianLempa/boilerplates](https://github.com/ChristianLempa/boilerplates/tree/main/docker-compose)
+
+- [IOTStack](https://sensorsiot.github.io/IOTstack/) simple tool for creating your own IOT-Services in one Stack
+- [Media Stack Tutorial](https://www.reddit.com/r/tutorials/comments/x7azy5/installing_docker_and_a_media_stack_plex_arrs/)
+- [ArrStack (Update 8/2024) : r/selfhosted](https://www.reddit.com/r/selfhosted/comments/1ep6uxd/arrstack_update_82024/)
+
+- [Awesome Compose](https://github.com/docker/awesome-compose)
+- [Awesome Docker Compose Examples](https://github.com/Haxxnet/Compose-Examples)
+- [server-compose](https://github.com/carteakey/server-compose)
+- [Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates)
+
+* [r/selfhosted](https://www.reddit.com/r/selfhosted/)
+* [r/homelab](https://www.reddit.com/r/homelab/)
 
 ## TODO
 
