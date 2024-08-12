@@ -10,8 +10,15 @@ services:
       - ./influxdb/config:/etc/influxdb2
     restart: unless-stopped
     image: influxdb:2.1.1
-    networks:
-      - proxy
+    environment:
+      - DOCKER_INFLUXDB_INIT_MODE=setup
+      - DOCKER_INFLUXDB_INIT_USERNAME=schueler
+      - DOCKER_INFLUXDB_INIT_PASSWORD=example-password
+      - DOCKER_INFLUXDB_INIT_ORG=telegraf
+      - DOCKER_INFLUXDB_INIT_BUCKET=telegraf-bucket
+      - DOCKER_INFLUXDB_INIT_ADMIN_TOKEN=t3S9_jBwHAUNwB4J_SD6p_hjBKmtFsrE1pKlx8CIm2vOkIV46-TrtmAncHzg9yHB6xIoqkvJRxWD_UiDjd_wnw==
+    # networks:
+    #   - proxy
   # https://www.influxdata.com/time-series-platform/telegraf/
   telegraf:
     container_name: telegraf
@@ -20,9 +27,33 @@ services:
       - influxdb
     volumes:
       - ./telegraf/telegraf.conf:/etc/telegraf/telegraf.conf:ro
-    networks:
-      - proxy
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /sys:/rootfs/sys:ro
+      - /proc:/rootfs/proc:ro
+      - /etc:/rootfs/etc:ro
+    environment:
+      HOST_PROC: /rootfs/proc
+      HOST_SYS: /rootfs/sys
+      HOST_ETC: /rootfs/etc
+#     networks:
+#       - proxy
+  grafana:
+    container_name: grafana
+    image: grafana/grafana:latest
+    environment:
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_BASIC_ENABLED=false
+      - GF_PATHS_PROVISIONING=/etc/grafana/provisioning
+      - GF_INSTALL_PLUGINS=grafana-simple-json-datasource
+    ports:
+      - 3033:3000/tcp
+    volumes:
+      - ./grafana/provisioning:/etc/grafana/provisioning
+      - ./grafana/storage:/var/lib/grafana
+    # networks:
+    #   - proxy
 
-networks:
-  proxy:
-    external: true
+# networks:
+#   proxy:
+#     external: true

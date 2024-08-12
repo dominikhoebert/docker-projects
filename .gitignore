@@ -55,3 +55,4 @@ audiobookshelf/audiobooks/
 audiobookshelf/config/
 audiobookshelf/metadata/
 audiobookshelf/podcasts/
+system-monitoring/grafana/storage/
