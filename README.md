@@ -60,6 +60,7 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 | [NetData](https://www.netdata.cloud/)                                          | [19999](http://localhost:19999)                                      |
 | [Nextcloud](https://github.com/nextcloud/docker)                               | [8080](http://localhost:8080)                                        |
 | [nginx](https://hub.docker.com/_/nginx)                                        | [82](http://localhost:82)                                            |
+| [Nginx Proxy Manager](https://nginxproxymanager.com/x)                                        | [8181](http://localhost:8181)                                            |
 | [Obsidian-LiveSync](https://github.com/vrtmrz/obsidian-livesync)               | [5984](http://localhost:5984/_utils/)                                |
 | [Olivetin](https://github.com/OliveTin/OliveTin)                               | [1337](http://localhost:1337)                                        |
 | [Organizr](https://docs.organizr.app/)                                         | [8777](http://localhost:8777)                                        |
@@ -109,5 +110,5 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 * [r/homelab](https://www.reddit.com/r/homelab/)
 
 ## TODO
- - monitor -> Homepage
+ - monitor, nginx proxy manager -> Homepage
 

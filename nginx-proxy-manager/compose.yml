@@ -3,6 +3,7 @@
 # easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt
 
 # first login: admin@example.com/changeme
+# Port conflicts possible
 
 name: nginx-proxy-manager
 
