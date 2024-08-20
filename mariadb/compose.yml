@@ -64,5 +64,16 @@ services:
       PORT_con1: 3306
       ENGINE_con1: mysql@dbgate-plugin-mysql
 
+  nocodb:
+    container_name: nocodb
+    # environment:
+    #   NC_DB: "mysql://mariadb:3306?u=root&p=example"
+    image: "nocodb/nocodb:latest"
+    ports:
+      - "8070:8080"
+    restart: unless-stopped
+    volumes:
+      - ./nc_data:/usr/app/data
+
 # https://github.com/sqlchat/sqlchat
 # https://github.com/dominikhoebert/docker-projects/blob/master/sqlchat/compose.yml

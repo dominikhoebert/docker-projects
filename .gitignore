@@ -58,3 +58,4 @@ audiobookshelf/podcasts/
 system-monitoring/grafana/storage/
 homepage/homepage-config/logs/
 monitor/db-data/
+mariadb/nc_data/
