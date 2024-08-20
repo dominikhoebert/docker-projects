@@ -14,7 +14,7 @@ services:
       - 67:67/udp
       - 68:68/udp
       - 3000:3000
-      - 85:80
+      - 82:80
     image: adguard/adguardhome
     restart: unless-stopped
   # first login: admin@example.com/changeme
@@ -25,7 +25,7 @@ services:
     ports:
       - '80:80' # Public HTTP Port
       - '443:443' # Public HTTPS Port
-      - '8181:81'
+      - '81:81'
     volumes:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
@@ -37,5 +37,5 @@ services:
     environment:
       - TZ=Europe/Vienna
     ports:
-      - 84:80
+      - 83:80
     restart: unless-stopped
