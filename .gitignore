@@ -59,3 +59,9 @@ system-monitoring/grafana/storage/
 homepage/homepage-config/logs/
 monitor/db-data/
 mariadb/nc_data/
+nginx-proxy-manager/data/
+nginx-proxy-manager/letsencrypt/
+reverse-proxy-exercise/conf/
+reverse-proxy-exercise/data/
+reverse-proxy-exercise/work/
+reverse-proxy-exercise/letsencrypt/

@@ -1,0 +1,41 @@
+#
+
+name: reverse-proxy
+
+services:
+  adguardhome:
+    container_name: adguard-home
+    volumes:
+      - ./work:/opt/adguardhome/work
+      - ./conf:/opt/adguardhome/conf
+    ports:
+      - 53:53/tcp
+      - 53:53/udp
+      - 67:67/udp
+      - 68:68/udp
+      - 3000:3000
+      - 85:80
+    image: adguard/adguardhome
+    restart: unless-stopped
+  # first login: admin@example.com/changeme
+  proxymanager:
+    container_name: nginx-proxy-manager
+    image: 'jc21/nginx-proxy-manager:latest'
+    restart: unless-stopped
+    ports:
+      - '80:80' # Public HTTP Port
+      - '443:443' # Public HTTPS Port
+      - '8181:81'
+    volumes:
+      - ./data:/data
+      - ./letsencrypt:/etc/letsencrypt
+  whoami:
+    image: traefik/whoami
+    container_name: whoami
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      - TZ=Europe/Vienna
+    ports:
+      - 84:80
+    restart: unless-stopped
