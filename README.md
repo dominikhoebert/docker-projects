@@ -97,6 +97,7 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 - [IOTStack](https://sensorsiot.github.io/IOTstack/) simple tool for creating your own IOT-Services in one Stack
 - [Media Stack Tutorial](https://www.reddit.com/r/tutorials/comments/x7azy5/installing_docker_and_a_media_stack_plex_arrs/)
 - [ArrStack (Update 8/2024) : r/selfhosted](https://www.reddit.com/r/selfhosted/comments/1ep6uxd/arrstack_update_82024/)
+- [Personal self-hosting guide](https://github.com/Yann39/self-hosted)
 
 - [Awesome Compose](https://github.com/docker/awesome-compose)
 - [Awesome Docker Compose Examples](https://github.com/Haxxnet/Compose-Examples)
