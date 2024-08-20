@@ -51,6 +51,7 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 | [MariaDB](https://mariadb.org/)                                                | 3306                                                                 |
 | [Mealie](https://mealie.io/)                                                   | [9925](http://localhost:9925)                                        |
 | [MeTube](https://github.com/alexta69/metube)                                   | [8088](http://localhost:8088)                                        |
+| [Monitor](https://docs.monitor.dev/)                                   | [9120](http://localhost:9120) 27017 (mongodb)                                        |
 | [moodle](https://hub.docker.com/r/bitnami/moodle)                              | [8089](http://localhost:8089)                                        |
 | [MySpeed](https://github.com/gnmyt/myspeed)                                    | [5216](http://localhost:5216)                                        |
 | [MySQL 8](https://www.mysql.com/)                                              | 3308                                                                 |
@@ -108,5 +109,5 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 * [r/homelab](https://www.reddit.com/r/homelab/)
 
 ## TODO
-
+ - monitor -> Homepage
 

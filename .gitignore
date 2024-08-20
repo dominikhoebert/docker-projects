@@ -51,12 +51,10 @@ immich/library/
 immich/postgres/
 esphome/config/
 organizr/config/
-<<<<<<< HEAD
 audiobookshelf/audiobooks/
 audiobookshelf/config/
 audiobookshelf/metadata/
 audiobookshelf/podcasts/
 system-monitoring/grafana/storage/
-=======
 homepage/homepage-config/logs/
->>>>>>> 39bab5a (added homepage logs to gitignore)
+monitor/db-data/
