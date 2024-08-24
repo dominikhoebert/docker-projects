@@ -62,6 +62,7 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 | [nginx](https://hub.docker.com/_/nginx)                                        | [82](http://localhost:82)                                            |
 | [Nginx Proxy Manager](https://nginxproxymanager.com/x)                                        | [8181](http://localhost:8181)                                            |
 | [Obsidian-LiveSync](https://github.com/vrtmrz/obsidian-livesync)               | [5984](http://localhost:5984/_utils/)                                |
+| [Ollama](https://ollama.com/)                               | [8075 Open WebUI](http://localhost:8075) 11434 Ollama                                       |
 | [Olivetin](https://github.com/OliveTin/OliveTin)                               | [1337](http://localhost:1337)                                        |
 | [Organizr](https://docs.organizr.app/)                                         | [8777](http://localhost:8777)                                        |
 | [PHPmyAdmin](https://hub.docker.com/_/phpmyadmin)                              | [8083](http://localhost:8083)                                        |

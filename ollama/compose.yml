@@ -1,0 +1,48 @@
+# https://www.youtube.com/watch?v=OpmMe0md0tA thanks Wolfgang!
+
+# Attention! Huge ~8GB! without model!
+
+name: ollama
+
+services:
+
+  webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    ports:
+      - 8075:8080/tcp
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+    volumes:
+      - ./webui:/app/backend/data
+    depends_on:
+      - ollama
+    networks:
+      - proxy
+
+  ollama:
+    image: ollama/ollama:rocm
+    container_name: ollama
+    ports:
+      - 11434:11434/tcp
+    volumes:
+      - ./ollama:/root/.ollama
+
+    # devices:  # Linux AMD GPU
+    #   - /dev/kfd
+    #   - /dev/dri
+
+    # Windows Nvidia GPU
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [ gpu ]
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
