@@ -106,6 +106,7 @@ The host networking driver only works on Linux hosts, but is availabe as a beta 
 - [Awesome Docker Compose Examples](https://github.com/Haxxnet/Compose-Examples)
 - [server-compose](https://github.com/carteakey/server-compose)
 - [Lissy93/portainer-templates](https://github.com/Lissy93/portainer-templates)
+- [ruanbekker/awesome-docker-compose](https://github.com/ruanbekker/awesome-docker-compose)
 
 * [r/selfhosted](https://www.reddit.com/r/selfhosted/)
 * [r/homelab](https://www.reddit.com/r/homelab/)
