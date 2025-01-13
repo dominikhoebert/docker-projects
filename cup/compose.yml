@@ -1,0 +1,23 @@
+# https://github.com/sergi0g/cup
+
+#
+
+name: cup
+
+services:
+  cup:
+    image: ghcr.io/sergi0g/cup:latest
+    container_name: cup # Optional
+    restart: unless-stopped
+    command: -c /config/cup.json serve
+    ports:
+      - 8000:8000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./config:/config
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
