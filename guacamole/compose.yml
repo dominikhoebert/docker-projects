@@ -8,6 +8,7 @@ services:
   guacamole:
     image: jwetzell/guacamole:1.5.5
     container_name: guacamole
+    restart: always
     volumes:
       - ./config:/config
     ports:

@@ -1,0 +1,22 @@
+# https://github.com/gnmyt/Nexterm?tab=readme-ov-file
+
+# The open source server management software for SSH, VNC & RDP
+
+name: nexterm
+
+services:
+  nexterm:
+    container_name: nexterm
+    ports:
+      - "6989:6989"
+    restart: always
+    volumes:
+      - ./data:/app/data
+    image: germannewsmaker/nexterm:1.0.2-OPEN-PREVIEW
+    networks:
+    - proxy
+
+networks:
+  proxy:
+    external: true
+  
