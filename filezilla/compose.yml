@@ -1,0 +1,20 @@
+# https://filezilla-project.org/
+
+# https://github.com/jlesage/docker-filezilla?tab=readme-ov-file#docker-compose-file
+
+name: filezilla
+services:
+  filezilla:
+    image: jlesage/filezilla
+    container_name: filezilla
+    ports:
+      - "5800:5800"
+    volumes:
+      - "./config:/config:rw"
+      - "/:/storage:rw"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
