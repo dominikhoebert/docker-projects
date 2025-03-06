@@ -1,0 +1,26 @@
+# https://github.com/siyuan-note/siyuan
+
+# 
+
+name: siyuan
+
+services:
+  siyuan:
+    container_name: siyuan
+    image: b3log/siyuan
+    command: ['--workspace=/siyuan/workspace/', '--accessAuthCode=hello']
+    ports:
+      - 6806:6806
+    volumes:
+      - ./workspace:/siyuan/workspace
+    restart: unless-stopped
+    environment:
+      # A list of time zone identifiers can be found at https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+      - TZ=Europe/Vienna
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  
