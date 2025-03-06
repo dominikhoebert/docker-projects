@@ -1,0 +1,23 @@
+# https://github.com/aceberg/WatchYourLAN
+
+# https://github.com/aceberg/WatchYourLAN/blob/main/docker-compose.yml
+
+name: watchyourlan
+
+services:
+  watchyourlan:
+    container_name: watchyourlan
+    image: aceberg/watchyourlan
+    network_mode: "host"
+    restart: unless-stopped
+    volumes:
+      - ./data:/data/WatchYourLAN
+    environment:
+      TZ: Europe/Vienna # required: needs your TZ for correct time
+      IFACES: "br-ea7a87620e0f" # required: 1 or more interface
+      HOST: "0.0.0.0" # optional, default: 0.0.0.0
+      PORT: "8840" # optional, default: 8840
+      TIMEOUT: "120" # optional, time in seconds, default: 120
+      THEME: "sand" # optional
+      COLOR: "dark" # optional
+
