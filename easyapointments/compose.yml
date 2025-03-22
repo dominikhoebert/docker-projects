@@ -1,0 +1,41 @@
+# https://easyappointments.org/
+
+name: easyappointments
+services:
+  easyapointments:
+    container_name: easyappointments
+    image: alextselegidis/easyappointments:latest
+    restart: always
+    ports:
+      - "8990:80"
+    environment:
+      - BASE_URL=http://localhost
+      - DEBUG_MODE=TRUE
+      - DB_HOST=mysql
+      - DB_NAME=easyappointments
+      - DB_USERNAME=root
+      - DB_PASSWORD=secret
+    volumes:
+      - easyappointments:/var/www/html
+    networks:
+      - proxy
+
+  mysql:
+    container_name: mysql-easyappointments
+    image: mysql:8.0
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_DATABASE=easyappointments
+    volumes:
+      - mysql:/var/lib/mysql
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+
+volumes:
+  easyappointments:
+  mysql:
