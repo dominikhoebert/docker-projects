@@ -1,0 +1,24 @@
+#
+
+#
+
+name: postgis
+
+services:
+  postgis:
+    image: postgis/postgis:17-3.5-alpine
+    container_name: postgis
+    volumes:
+      - ./data/:/var/lib/postgresql/data
+      - ./shared/:/var/shared
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: changeme
+    networks:
+      - proxy
+    ports:
+      - 15432:5432
+
+networks:
+  proxy:
+    external: true
