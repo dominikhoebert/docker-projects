@@ -14,6 +14,7 @@ services:
     environment:
       POSTGRES_USER: test
       POSTGRES_PASSWORD: changeme
+    restart: unless-stopped
     networks:
       - proxy
     ports:
