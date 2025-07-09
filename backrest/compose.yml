@@ -1,0 +1,33 @@
+# 
+
+# https://github.com/garethgeorge/backrest
+
+name: backrest
+
+services:
+  backrest:
+    image: garethgeorge/backrest:latest
+    container_name: backrest
+    volumes:
+      - ./backrest/data:/data
+      - ./backrest/config:/config
+      - ./backrest/cache:/cache
+      - ./backrest/tmp:/tmp
+      - ./backup/data:/userdata  # Mount local paths to backup
+      - ./repos:/repos     # Mount local repos (optional for remote storage)
+    environment:
+      - BACKREST_DATA=/data
+      - BACKREST_CONFIG=/config/config.json
+      - XDG_CACHE_HOME=/cache
+      - TMPDIR=/tmp
+      - TZ=Europe/Vienna
+    ports:
+      - "9898:9898"
+    restart: unless-stopped
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  

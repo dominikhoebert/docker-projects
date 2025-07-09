@@ -1,0 +1,24 @@
+
+name: prometheus
+
+services:
+  prometheus:
+    image: docker.io/prom/prometheus
+    container_name: prometheus
+    ports:
+      - 9090:9090
+    command: "--config.file=/etc/prometheus/prometheus.yaml --web.enable-remote-write-receiver"
+    volumes:
+      - ./config/prometheus.yaml:/etc/prometheus/prometheus.yaml:ro
+      - prometheus-data:/prometheus
+    restart: unless-stopped
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+
+volumes:
+  prometheus-data:
+    driver: local

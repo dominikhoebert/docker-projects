@@ -76,3 +76,6 @@ puter/config/
 puter/data/
 postgis/shared/
 postgis/data/
+backrest/backrest/
+backrest/backup/
+backrest/repos/
