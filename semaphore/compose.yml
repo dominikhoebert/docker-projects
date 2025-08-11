@@ -1,0 +1,28 @@
+#
+
+#
+
+name: semaphore
+
+services:
+  semaphore:
+    container_name: semaphore
+    ports:
+      - 3000:3000
+    image: public.ecr.aws/semaphore/pro/server:v2.15.2
+    environment:
+      SEMAPHORE_DB_DIALECT: bolt
+      SEMAPHORE_ADMIN: admin
+      SEMAPHORE_ADMIN_PASSWORD: changeme
+      SEMAPHORE_ADMIN_NAME: Admin
+      SEMAPHORE_ADMIN_EMAIL: admin@localhost
+    volumes:
+      - ./semaphore_data:/var/lib/semaphore
+      - ./semaphore_config:/etc/semaphore
+      - ./semaphore_tmp:/tmp/semaphore
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true

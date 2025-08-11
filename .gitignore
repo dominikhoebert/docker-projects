@@ -79,3 +79,5 @@ postgis/data/
 backrest/backrest/
 backrest/backup/
 backrest/repos/
+semaphore/semaphore_config/config.json
+semaphore/semaphore_data/database.boltdb
