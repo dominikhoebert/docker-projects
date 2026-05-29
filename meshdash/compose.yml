@@ -1,0 +1,16 @@
+services:
+  meshdash:
+    image: rusjpmd/meshdash-runner:latest
+    container_name: meshdash
+    restart: always
+    network_mode: host
+    privileged: true
+    environment:
+      MD_SETUP_KEY: "YOUR_API_KEY_HERE"
+      MD_SETUP_URL: "https://meshdash.co.uk/user_setup_core.php"
+    volumes:
+      - /dev:/dev
+      - meshdash_data:/app/data
+
+volumes:
+  meshdash_data:

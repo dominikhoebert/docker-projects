@@ -9,11 +9,9 @@ services:
     container_name: mariadb
     restart: always
     ports:
-      - 3306:3306
+      - 127.0.0.1:3306:3306
     environment:
-      MARIADB_ROOT_PASSWORD: example
-      MARIADB_USER: example-user
-      MARIADB_PASSWORD: my_cool_secret
+      MARIADB_ROOT_PASSWORD: administrator
     volumes:
       - ./mysql:/var/lib/mysql
 
@@ -60,14 +58,14 @@ services:
       LABEL_con1: MariaDB
       SERVER_con1: mariadb
       USER_con1: root
-      PASSWORD_con1: example
+      PASSWORD_con1: administrator
       PORT_con1: 3306
       ENGINE_con1: mysql@dbgate-plugin-mysql
 
   nocodb:
     container_name: nocodb
     # environment:
-    #   NC_DB: "mysql://mariadb:3306?u=root&p=example"
+    #   NC_DB: "mysql://mariadb:3306?u=root&p=administrator"
     image: "nocodb/nocodb:latest"
     ports:
       - "8070:8080"

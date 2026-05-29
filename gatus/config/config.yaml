@@ -1,0 +1,40 @@
+
+
+ui:
+  default-sort-by: group
+
+connectivity:
+  checker:
+    target: 1.1.1.1:53
+    interval: 60s
+
+endpoints:
+  - name: website # Name of your endpoint, can be anything
+    group: Test
+    url: "https://twin.sh/health"
+    interval: 5m # Duration to wait between every status check (default: 60s)
+    conditions:
+      - "[STATUS] == 200" # Status must be 200
+      - "[BODY].status == UP" # The json path "$.status" must be equal to UP
+      - "[RESPONSE_TIME] < 300" # Response time must be under 300ms
+    alerts:
+      - type: telegram
+
+  - name: make-sure-header-is-rendered
+    group: Test
+    url: "https://example.org/"
+    interval: 60s
+    conditions:
+      - "[STATUS] == 200" # Status must be 200
+      - "[BODY] == pat(*<h1>Example Domain</h1>*)" # Body must contain the specified header
+    alerts:
+      - type: telegram
+
+  - name: Guacamole
+    group: Local
+    url: "http://host.docker.internal:80"
+    conditions:
+      - "[STATUS] == 200"
+    alerts:
+      - type: telegram
+

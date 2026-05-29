@@ -81,3 +81,7 @@ backrest/backup/
 backrest/repos/
 semaphore/semaphore_config/config.json
 semaphore/semaphore_data/database.boltdb
+mosquitto/data/
+mosquitto/log/
+mosquitto/config/
+postgres17/postgres/

@@ -1,0 +1,21 @@
+# https://github.com/TwiN/gatus/blob/master/.examples/docker-compose/docker-compose.yml
+
+# 
+
+name: gatus
+
+services:
+  gatus:
+    image: twinproduction/gatus:latest
+    container_name: gatus
+    ports:
+      - 8080:8080
+    volumes:
+      - ./config:/config
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    external: true
+  

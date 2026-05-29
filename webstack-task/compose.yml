@@ -1,0 +1,39 @@
+services:
+  nginx:
+    image: nginx:1.27-alpine
+    container_name: webstack-nginx
+    depends_on:
+      - php
+    ports:
+      - "${WEBSTACK_HTTP_PORT:-8080}:80"
+    volumes:
+      - ./app:/var/www/html:ro
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+    networks:
+      - webstack
+    restart: unless-stopped
+
+  php:
+    image: php:8.3-fpm-alpine
+    container_name: webstack-php
+    volumes:
+      - ./app:/var/www/html:ro
+    networks:
+      - webstack
+    restart: unless-stopped
+
+  sftp:
+    image: atmoz/sftp:alpine
+    container_name: webstack-sftp
+    platform: linux/amd64
+    ports:
+      - "${WEBSTACK_SFTP_PORT:-2222}:22"
+    volumes:
+      - ./app:/home/webuser/upload
+    command: "webuser:webpass:1000:1000:upload"
+    networks:
+      - webstack
+    restart: unless-stopped
+
+networks:
+  webstack: {}
